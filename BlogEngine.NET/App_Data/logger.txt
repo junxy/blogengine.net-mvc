@@ -1,0 +1,20 @@
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 2011/10/23 13:17:09
+Contents Below
+Error loading compiled extensions from assembly BlogEngine.Core, Version=2.0.0.49, Culture=neutral, PublicKeyToken=fed3cbd6fd4e62d0: 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 10/23/2011 1:17:15 PM
+Contents Below
+Error loading compiled extensions from assembly BlogEngine.Core, Version=2.0.0.49, Culture=neutral, PublicKeyToken=fed3cbd6fd4e62d0: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 2011/10/23 13:39:09
+Contents Below
+Error loading compiled extensions from assembly BlogEngine.Core, Version=2.0.0.49, Culture=neutral, PublicKeyToken=fed3cbd6fd4e62d0: 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 2011/10/23 14:01:29
+Contents Below
+Error loading compiled extensions from assembly BlogEngine.Core, Version=2.0.0.49, Culture=neutral, PublicKeyToken=fed3cbd6fd4e62d0: 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 2011/10/23 15:21:05
+Contents Below
+Error loading compiled extensions from assembly BlogEngine.Core, Version=2.0.0.49, Culture=neutral, PublicKeyToken=fed3cbd6fd4e62d0: 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
