@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BlogEngine.Core.Ping.Manager" Collapsed="true">
+    <Position X="4.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAEAAAAAAAAAAAQAAAAAAABAAAEA=</HashCode>
+      <FileName>Ping\Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Ping.Pingback" Collapsed="true">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAEAAQAABAAAAAAAAAAAAQAgAAAA=</HashCode>
+      <FileName>Ping\Pingback.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Ping.PingService" Collapsed="true">
+    <Position X="7.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ping\PingService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Ping.Trackback" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAQAABAAAAAAAAAAAAQAgAAAA=</HashCode>
+      <FileName>Ping\Trackback.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Ping.TrackbackMessage" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAABAAAEAEAAAAAAAAAAAAAAAAAAAAAQAAgAA=</HashCode>
+      <FileName>Ping\TrackbackMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

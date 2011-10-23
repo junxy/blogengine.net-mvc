@@ -1,0 +1,67 @@
+﻿@using BlogEngine.Core
+@using BlogEngine.Core.Web.Extensions
+@{ 
+    Page.Title = Resources.labels.extensions;
+    Layout = "../_Layout.cshtml";
+
+    var extensions = ExtensionManager.Extensions.Where(x => x.Key != "MetaExtension").ToList();
+
+    extensions.Sort(
+        (e1, e2) => e1.Value.Priority == e2.Value.Priority ? string.CompareOrdinal(e1.Key, e2.Key) : e1.Value.Priority.CompareTo(e2.Value.Priority));
+
+    List<ManagedExtension> manExtensions = new List<ManagedExtension>();
+
+    foreach (KeyValuePair<string, ManagedExtension> ext in extensions)
+    {
+        var oExt = ExtensionManager.GetExtension(@ext.Key);
+        manExtensions.Add(oExt);
+    } 
+}
+
+<script type="text/javascript" src="../jquery.colorbox.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".changePriority").colorbox({ width: "300px", inline: true, href: "#frmPriority" });
+    });
+
+    function closeOverlay() {
+        $('#txtPriority').val('');
+        $('#txtPriorityReq').addClass('hidden');
+        $.colorbox.close();
+        return false;
+    }
+</script>
+
+<div class="content-box-outer">
+	<div class="content-box-right">
+        <ul>
+            @foreach (var x in manExtensions)
+            {
+                var lnk = string.Format("~/admin/Extensions/Settings.aspx?ext={0}&enb={1}", x.Name, x.Enabled);
+                
+                if (x.Settings.Count > 0 && x.Settings[0] != null && x.ShowSettings != false)
+                {
+                    <li><a href="@Href(lnk)">@x.Name</a></li>
+                }
+            }
+        </ul>
+	</div>
+	<div class="content-box-left">
+        <div  style="display:none;">
+            <div id="frmPriority" class="overlaypanel">
+                <h2>Change Priority</h2>
+		        <label for="txtPriority" class="lbl">@Resources.labels.priority</label>
+		        <input type="text" id="txtPriority" class="txt200" />
+                <input type="text" id="hdnExtensionName" style="display:none" />
+		        <span id="txtPriorityReq" class="req hidden">*</span>
+		        <br/><br/>
+		        <input type="submit" class="btn primary rounded" value="@Resources.labels.save" onclick="return ChangePriority();" />
+		        @Resources.labels.or <a href="" onclick="return closeOverlay();">@Resources.labels.cancel</a>
+                <br/><br/>
+	        </div>
+        </div>
+
+        <div>@AdminExtensionsHelper.GetTable(true)</div>
+        <div>@AdminExtensionsHelper.GetTable(false)</div>
+	</div>
+</div>

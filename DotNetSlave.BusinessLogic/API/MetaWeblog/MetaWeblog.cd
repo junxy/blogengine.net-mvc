@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BlogEngine.Core.API.MetaWeblog.MetaWeblogHandler" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAACBEAABAAAgAAgABABAAECAQBQAYAAAAACAgCAAAA=</HashCode>
+      <FileName>API\MetaWeblog\MetaWeblogHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BlogEngine.Core.API.MetaWeblog.XMLRPCResponse">
+    <Position X="8" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAChAAEAABQEAMgBAARAAAECEBwUAYAQgAAEAEAgAA=</HashCode>
+      <FileName>API\MetaWeblog\XMLRPCResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.API.MetaWeblog.XMLRPCRequest">
+    <Position X="5.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAAAAARCCEIAEAAgQAACAAQAAACAQACAAAAgAA=</HashCode>
+      <FileName>API\MetaWeblog\XMLRPCRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.API.MetaWeblog.MetaWeblogException">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\MetaWeblog\MetaWeblogException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="BlogEngine.Core.API.MetaWeblog.MWACategory">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAIAAAAAAAAAAAAAAAAABAAAAAAoA=</HashCode>
+      <FileName>API\MetaWeblog\MWACategory.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BlogEngine.Core.API.MetaWeblog.MWABlogInfo">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAACAAAAAAAA=</HashCode>
+      <FileName>API\MetaWeblog\MWABlogInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BlogEngine.Core.API.MetaWeblog.MWAFault">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\MetaWeblog\MWAFault.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BlogEngine.Core.API.MetaWeblog.MWAMediaObject">
+    <Position X="14" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\MetaWeblog\MWAMediaObject.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BlogEngine.Core.API.MetaWeblog.MWAMediaInfo">
+    <Position X="12.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\MetaWeblog\MWAMediaInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BlogEngine.Core.API.MetaWeblog.MWAPost">
+    <Position X="12.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAQAAAQAAAIAARAIAQAAAAAAAABABAAQAAAEA=</HashCode>
+      <FileName>API\MetaWeblog\MWAPost.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BlogEngine.Core.API.MetaWeblog.MWAPage">
+    <Position X="10.5" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABQgAAAAAAIAAAAABAAAAAAAAACAAAAAAEAEA=</HashCode>
+      <FileName>API\MetaWeblog\MWAPage.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BlogEngine.Core.API.MetaWeblog.MWAAuthor">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAgAAAAAAAAAAACAACBAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\MetaWeblog\MWAAuthor.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

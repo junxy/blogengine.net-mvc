@@ -1,0 +1,39 @@
+﻿{#if $T.d.length == 0}
+<div class="info" style="margin-top: 10px">
+    Trash is empty.
+</div>
+{#else}
+<table id="TrashTable" class="beTable rounded">
+  <thead>
+    <tr>
+	  <th width="20"><input type="checkbox" id="selectall" onclick="toggleAllChecks(this)" /></th>
+      <th width="auto">Title</th>
+      <th width="160">Type</th>
+	  <th width="160">Created on</th>
+      <th width="80">&nbsp;</th>
+	  <th width="80">&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody>
+    {#foreach $T.d as item}
+	<tr id="{$T.item.ObjectType}:{$T.item.Id}" class="{#cycle values=['','alt']}">
+	  <td><input type="checkbox" name="chk"{$T.item.Id} class="chk"/></td>
+      <td>{$T.item.Title}</td>
+      <td>{$T.item.ObjectType}</td>
+      <td class="editable">{$T.item.Date} {$T.item.Time}</td>
+	  <td align="center" style="vertical-align:middle"><a class="deleteAction" href="#" onclick="return ProcessTrash('Purge', '{$T.item.ObjectType}:{$T.item.Id}')">Purge</a></td>
+	  <td align="center" style="vertical-align:middle"><a class="approveAction" href="#" onclick="return ProcessTrash('Restore', '{$T.item.ObjectType}:{$T.item.Id}')">Restore</a></td>
+    </tr>
+    {#/for}
+  </tbody>
+</table>
+{#/if}
+
+{#if $T.d.length > 0}
+<div class="action_buttons">
+    <input type="submit" class="btn" value="Restore Selected" onclick="return ProcessTrash('Restore', 'Selected');" />&nbsp;
+    <input type="submit" class="btn" value="Purge Selected" onclick="return ProcessTrash('Purge', 'Selected');" />&nbsp;&nbsp;
+    <input type="submit" class="btn" value="Purge All" onclick="return ProcessTrash('Purge', 'All');" />&nbsp;
+    <span id="AjaxLoader">&nbsp;</span>
+</div>
+{#else}

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BlogEngine.Core.Web.HttpModules.CompressionModule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIAAAAAAAAMAACACAAAAAAAAEAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Web\HttpModules\CompressionModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpModules.ReferrerModule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAAAAAAEKAAAAAAAAAAAACABAAAAAAAAAACEAAAAAA=</HashCode>
+      <FileName>Web\HttpModules\ReferrerModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpModules.UrlRewrite" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAIAAAAACAACAAAAAAQAAABEAAIAAAAQBACEAAAAAA=</HashCode>
+      <FileName>Web\HttpModules\UrlRewrite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpModules.WwwSubDomainModule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAAAAAAAAAAAAAQAIAAEAAAAAACAAIAAAA=</HashCode>
+      <FileName>Web\HttpModules\WwwSubDomainModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.Controls.BlogBasePage" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAAIAABCAAAAAAAAAAAECBAAAAEAAABAjAlBAAAA=</HashCode>
+      <FileName>Web\Controls\BlogBasePage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Web.Controls.CommentViewBase" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAEAAAAAUAAAAQAAACACBAAAgEAAAAACAAAAAA=</HashCode>
+      <FileName>Web\Controls\CommentViewBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Web.Controls.ExtensionAttribute" Collapsed="true">
+    <Position X="1" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAQgAAAEoAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web\Controls\ExtensionAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Web.Controls.SortedExtension" Collapsed="true">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Web\Controls\ExtensionAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Web.Controls.PageSiteMap" Collapsed="true">
+    <Position X="1" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAEIAAAAA=</HashCode>
+      <FileName>Web\Controls\PageSiteMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Web.Controls.PostViewBase" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAEAAAAAAAAAAIRAgCCCBAAAgUIAAEAAAAAAAA=</HashCode>
+      <FileName>Web\Controls\PostViewBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Web.Controls.RewriteFormHtmlTextWriter" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web\Controls\RewriteFormHtmlTextWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Web.Extensions.ExtensionManager" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAIgAEAIQAAEwIEAAAAAAQBQBQAABAAgAAAAYAAE=</HashCode>
+      <FileName>Web\Extensions\ExtensionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Web.Extensions.ExtensionParameter" Collapsed="true">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACEAkAAIAAAQAAAAQEAAAEAAAAAAAwAAAAAQA=</HashCode>
+      <FileName>Web\Extensions\ExtensionParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Web.Extensions.ExtensionSettings" Collapsed="true">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAkAAEAAgIAAAABYAAAAXSAAAQAAIEAIEQAACEAYQ=</HashCode>
+      <FileName>Web\Extensions\ExtensionSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Web.Extensions.ManagedExtension" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAAUAAAAAAgAIAkgAAAAAQAABCAAAAAwAAAAAAAAAA=</HashCode>
+      <FileName>Web\Extensions\ManagedExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.Apml" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAEAAAAABAAAAAIAAAAAAAAACBAABAAEAA=</HashCode>
+      <FileName>Web\HttpHandlers\Apml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.BlogMLExportHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAgAIiABAAAAACAABAAAEACQAAAAIAAIAAwgAAAAIA=</HashCode>
+      <FileName>Web\HttpHandlers\BlogMLExportHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.CssHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAgAAACABAAAAAAAAEAEAAAAAgAAhAQgIA=</HashCode>
+      <FileName>Web\HttpHandlers\CssHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.FileHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAgAAACABAAAAAAAAEAEBAAAAAAAgAQAAA=</HashCode>
+      <FileName>Web\HttpHandlers\FileHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.Foaf" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAEAAAAAABAAAAAIAAIAAAAAgAAAwAAAEAA=</HashCode>
+      <FileName>Web\HttpHandlers\Foaf.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.FoafPerson" Collapsed="true">
+    <Position X="1" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKEEAABCAAAEAIgABAAAQAAAAIABAAAAAAIAAAAAA=</HashCode>
+      <FileName>Web\HttpHandlers\Foaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.ImageHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAgAAACABAAAAAAAAEAEAAAAAAAAgAQAAA=</HashCode>
+      <FileName>Web\HttpHandlers\ImageHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.JavaScriptHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAhAAACQAAAAAAAAAAAgAAAAAgAA=</HashCode>
+      <FileName>Web\HttpHandlers\JavaScriptHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.OpenSearchHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web\HttpHandlers\OpenSearchHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.OpmlHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web\HttpHandlers\OpmlHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.PingbackHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAARAALRAQECAAAABABAACABgAAQAIAAAAABQAAggg=</HashCode>
+      <FileName>Web\HttpHandlers\PingbackHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.RatingHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAQAAAAABAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web\HttpHandlers\RatingHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.RsdHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web\HttpHandlers\RsdHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.Sioc" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQABAACAAAgABAACAAJSgAAIAEgkAAAwAEAEIA=</HashCode>
+      <FileName>Web\HttpHandlers\Sioc.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.SiteMap" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web\HttpHandlers\SiteMap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.SyndicationHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABAAAQAAAABABBKAACAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Web\HttpHandlers\SyndicationHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.Web.HttpHandlers.TrackbackHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAALBAQEAAAAABABAACAAAAAQAAAAAAAAQAAggA=</HashCode>
+      <FileName>Web\HttpHandlers\TrackbackHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Enum Name="BlogEngine.Core.Web.Extensions.ParameterType" Collapsed="true">
+    <Position X="1" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAEAAQAgAAAAQAAAAAAAAAACAgAAAAAAAAAoAQA=</HashCode>
+      <FileName>Web\Extensions\ExtensionParameter.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

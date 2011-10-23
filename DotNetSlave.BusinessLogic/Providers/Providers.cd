@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BlogEngine.Core.Providers.DbRoleProvider" Collapsed="true">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEEAAwAAAEAQAABAAABAAAAAAAAIIAAAAEgAFQAAA=</HashCode>
+      <FileName>Providers\DbRoleProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Providers.XmlBlogProvider" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAClBhAEIgAYggQAEQgJABAAgwAAEFIBYISgACBB0=</HashCode>
+      <FileName>Providers\XmlProvider\BlogRoll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Providers.XmlMembershipProvider" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IQQAAAAAAQgEgQiMEYAEAAAQAQIAAAICHAECAIkABAQ=</HashCode>
+      <FileName>Providers\XmlProvider\XmlMembershipProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Providers.XmlRoleProvider" Collapsed="true">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEEIA4AAoUAQAAAAACBAAAAAAAAAIAAAAEAAEQBAA=</HashCode>
+      <FileName>Providers\XmlProvider\XmlRoleProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Providers.BlogProvider" Collapsed="true">
+    <Position X="4.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAlBhAEIgAIggQAEQgJABAAgwAAEBIBYASgACAB0=</HashCode>
+      <FileName>Providers\BlogProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Providers.BlogProviderCollection" Collapsed="true">
+    <Position X="7.75" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Providers\BlogProviderCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Providers.BlogProviderSection" Collapsed="true">
+    <Position X="1.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Providers\BlogProviderSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Providers.BlogService" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAglQgAEIECoggAAEQwJABAAgxACMAIBYASgACABk=</HashCode>
+      <FileName>Providers\BlogService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Providers.DbBlogProvider" Collapsed="true">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIlFhQEIgAYggQAEQgJABAAgwAIFBIBYAygBCAB0=</HashCode>
+      <FileName>Providers\DbBlogProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Providers.DbMembershipProvider" Collapsed="true">
+    <Position X="3" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAQAEgUiMFYAEAAAQAQIAAIICHAECgAlAAAQ=</HashCode>
+      <FileName>Providers\DbMembershipProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

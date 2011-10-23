@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <allowservertodownloadremotefiles>False</allowservertodownloadremotefiles>
+  <themecookiename>theme</themecookiename>
+  <administratorrole>Administrators</administratorrole>
+  <numberofreferrerdays>1</numberofreferrerdays>
+  <showdescriptioninpostlist>False</showdescriptioninpostlist>
+  <theme>Standard</theme>
+  <trackingscript />
+  <mobiletheme>Mobile</mobiletheme>
+  <dayscommentsareenabled>0</dayscommentsareenabled>
+  <descriptioncharacters>300</descriptioncharacters>
+  <searchbuttontext>Search</searchbuttontext>
+  <remotefiledownloadtimeout>30000</remotefiledownloadtimeout>
+  <enablecontactattachments>True</enablecontactattachments>
+  <enableselfregistration>False</enableselfregistration>
+  <endorsement>http://www.dotnetblogengine.net/syndication.axd</endorsement>
+  <enabletrackbacksend>True</enabletrackbacksend>
+  <emailsubjectprefix>Weblog</emailsubjectprefix>
+  <enablepasswordreset>True</enablepasswordreset>
+  <smtpusername>username</smtpusername>
+  <disqusdevmode>False</disqusdevmode>
+  <enablerating>True</enablerating>
+  <commentsperpage>10</commentsperpage>
+  <iscommentsenabled>True</iscommentsenabled>
+  <description>Short description of the blog</description>
+  <moderationtype>Auto</moderationtype>
+  <displaycommentsonrecentposts>True</displaycommentsonrecentposts>
+  <name>Name of the blog</name>
+  <email>name@example.com</email>
+  <anonymousrole>Anonymous</anonymousrole>
+  <descriptioncharactersforpostsbytagorcategory>0</descriptioncharactersforpostsbytagorcategory>
+  <sendmailoncomment>True</sendmailoncomment>
+  <showdescriptioninpostlistforpostsbytagorcategory>False</showdescriptioninpostlistforpostsbytagorcategory>
+  <commentwhitelistcount>1</commentwhitelistcount>
+  <enablewebsiteincomments>False</enablewebsiteincomments>
+  <htmlheader />
+  <postsperfeed>10</postsperfeed>
+  <useblognameinpagetitles>True</useblognameinpagetitles>
+  <enablepingbackreceive>True</enablepingbackreceive>
+  <enablehttpcompression>True</enablehttpcompression>
+  <authorname>My name</authorname>
+  <numberofrecentposts>10</numberofrecentposts>
+  <culture>Auto</culture>
+  <enablerecaptchaoncontactform>False</enablerecaptchaoncontactform>
+  <enablecommentsmoderation>True</enablecommentsmoderation>
+  <enablerelatedposts>True</enablerelatedposts>
+  <smtpserverport>25</smtpserverport>
+  <blogrollupdateminutes>60</blogrollupdateminutes>
+  <requiresslmetaweblogapi>False</requiresslmetaweblogapi>
+  <enablepingbacksend>True</enablepingbacksend>
+  <enabletrackbackreceive>True</enabletrackbackreceive>
+  <avatar>wavatar</avatar>
+  <blockauthoroncommentdelete>False</blockauthoroncommentdelete>
+  <addiptoblacklistfilteronrejection>False</addiptoblacklistfilteronrejection>
+  <smtpserver>mail.example.com</smtpserver>
+  <enableenclosures>False</enableenclosures>
+  <trustauthenticatedusers>True</trustauthenticatedusers>
+  <enableopensearch>True</enableopensearch>
+  <displayratingsonrecentposts>True</displayratingsonrecentposts>
+  <disquswebsitename />
+  <searchdefaulttext>Enter search term or APML url</searchdefaulttext>
+  <enablecommentsearch>True</enablecommentsearch>
+  <commentreportmistakes>False</commentreportmistakes>
+  <geocodinglatitude>0</geocodinglatitude>
+  <syndicationformat>Rss</syndicationformat>
+  <geocodinglongitude>0</geocodinglongitude>
+  <timezone>0</timezone>
+  <contactformmessage>&lt;p&gt;I'll answer the mail as soon as I can.&lt;/p&gt;</contactformmessage>
+  <enablereferrertracking>False</enablereferrertracking>
+  <showpostnavigation>True</showpostnavigation>
+  <searchcommentlabeltext>Include comments in search</searchcommentlabeltext>
+  <postsperpage>10</postsperpage>
+  <showlivepreview>True</showlivepreview>
+  <enablecountryincomments>True</enablecountryincomments>
+  <timestamppostlinks>True</timestamppostlinks>
+  <remotemaxfilesize>524288</remotemaxfilesize>
+  <iscommentnestingenabled>True</iscommentnestingenabled>
+  <numberofrecentcomments>10</numberofrecentcomments>
+  <language>en-US</language>
+  <showpingbacks>False</showpingbacks>
+  <addiptowhitelistfilteronapproval>False</addiptowhitelistfilteronapproval>
+  <compresswebresource>True</compresswebresource>
+  <alternatefeedurl />
+  <commentblacklistcount>2</commentblacklistcount>
+  <blogrollvisibleposts>3</blogrollvisibleposts>
+  <editorsrole>Editors</editorsrole>
+  <removewhitespaceinstylesheets>True</removewhitespaceinstylesheets>
+  <selfregistrationinitialrole>Select</selfregistrationinitialrole>
+  <feedauthor />
+  <disqusaddcommentstopages>False</disqusaddcommentstopages>
+  <smtppassword>password</smtppassword>
+  <handlewwwsubdomain />
+  <contactthankmessage>&lt;h1&gt;Thank you&lt;/h1&gt;&lt;p&gt;The message was sent.&lt;/p&gt;</contactthankmessage>
+  <iscocommentenabled>False</iscocommentenabled>
+  <enablessl>False</enablessl>
+  <enableerrorlogging>False</enableerrorlogging>
+  <blogrollmaxlength>23</blogrollmaxlength>
+</settings>

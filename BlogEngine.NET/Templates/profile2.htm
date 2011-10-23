@@ -1,0 +1,40 @@
+﻿
+    <h2>Contact Details and Address</h2>
+    <table class="tblForm">
+        <tr>
+            <td>
+                <label for="txtMobile" class="lbl">Mobile Phone</label>
+                <input type="text" id="txtMobile" class="txt200" value="{$T.d.PhoneMobile}" />
+            </td>
+            <td>
+                <label for="txtCity" class="lbl">City/Town</label>
+                <input type="text" id="txtCity" class="txt200" value="{$T.d.CityTown}" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="txtMainPhone" class="lbl">Main Phone</label>
+                <input type="text" id="txtMainPhone" class="txt200" value="{$T.d.PhoneMain}" />
+            </td>
+            <td>
+                <label for="txtState" class="lbl">State/Region</label>
+                <input type="text" id="txtState" class="txt200" value="{$T.d.RegionState}" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="txtFax" class="lbl">Fax</label>
+                <input type="text" id="txtFax" class="txt200" value="{$T.d.PhoneFax}" />
+            </td>
+            <td>
+                <label for="txtCountry" class="lbl">Country</label>
+                <input type="text" id="txtCountry" class="txt200" value="{$T.d.Country}" />
+            </td>
+        </tr>
+    </table>
+
+
+    <h2>Short Biography</h2>
+    <div style="margin:0 0 20px;">
+        <textarea name="biography" id="biography" rows="5" cols="69" style="width:430px">{$T.d.AboutMe}</textarea>
+    </div>

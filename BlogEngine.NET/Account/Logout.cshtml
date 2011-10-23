@@ -1,0 +1,13 @@
+﻿@{
+    //TODO: might need to move to Security
+    // and abstract from forms authentication
+    FormsAuthentication.SignOut();
+
+    // Redirect back to the homepage or return URL
+    var returnUrl = Request.QueryString["ReturnUrl"];
+    if (returnUrl.IsEmpty()) {
+        Response.Redirect("~/");
+    } else {
+        Context.RedirectLocal(returnUrl);
+    }
+}

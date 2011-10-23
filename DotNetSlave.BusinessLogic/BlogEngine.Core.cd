@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BlogEngine.Core.XmlSafeResolver" Collapsed="true">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAABAAAAAAAAAAIAAAAAACAAAAA=</HashCode>
+      <FileName>XmlSafeResolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.AuthorProfile">
+    <Position X="3.75" Y="11.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BABCEEAAQBBABsAkgAYaMIoAHAIaAQACBQACDgAAAAw=</HashCode>
+      <FileName>AuthorProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.BlogRollItem">
+    <Position X="9.5" Y="11.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BAASAAAAUAAgAEQEMAACEBAABIAAAACABBAAAQBQAAE=</HashCode>
+      <FileName>BlogRollItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BlogEngine.Core.BlogSettings" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBYEh6KSiSg7DAIyjgcAAl8SGSPoAhKo1QkAIHVDAoI=</HashCode>
+      <FileName>BlogSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.BusinessBase&lt;T, TKey&gt;">
+    <Position X="8" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAQCoIRAAKgAASAAqAAKEIWBhAEEAIQABAAkBAACoiA=</HashCode>
+      <FileName>BusinessBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BlogEngine.Core.Category">
+    <Position X="15.25" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAAQAAgAETEJAACUAAUBAAykAAABAAAAAAABAA=</HashCode>
+      <FileName>Category.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BlogEngine.Core.Comment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiIAACAiAggEQCiAQiSACEIAIQEAyqAgAEAAAgIAA=</HashCode>
+      <FileName>Comment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlogEngine.Core.CommentHandlers" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAiAAMABBAAABEAAQAAAAACIAAIAAAAAAAAAACAAAAI=</HashCode>
+      <FileName>CommentHandlers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Extensions" Collapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.JsonResponse" Collapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAAAAAIAAAAAA=</HashCode>
+      <FileName>JsonResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Page">
+    <Position X="1" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BACCACAAQiggAEFmKQACUEmEBAAQEACIBAAAAEQAgIA=</HashCode>
+      <FileName>Page.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BlogEngine.Core.Post">
+    <Position X="6.75" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>RwAuYAVKRkAkFkQGrAATUqkUBRAQlEGIDEBDAAQiOIA=</HashCode>
+      <FileName>Post.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BlogEngine.Core.Referrer">
+    <Position X="12.5" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAIiAAAAIAAAAAQEBAACEAQAVAAIABCADAAAgAACAAA=</HashCode>
+      <FileName>Referrer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BlogEngine.Core.Role" Collapsed="true">
+    <Position X="20" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Role.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.SavedEventArgs" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>SavedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Search" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAABAIAEASgQAFAIBgAAAgABARACAIIAAQAA=</HashCode>
+      <FileName>Search.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.ServingEventArgs" Collapsed="true">
+    <Position X="18.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAIBAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServingEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.StateList&lt;T&gt;" Collapsed="true">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAQAAAAAAAAAgAAAAAQAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>StateCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.SyndicationGenerator" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAEAUAGAAEBAQAYAAAAkAEJAwgEAI0ACUAAA=</HashCode>
+      <FileName>SyndicationGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlogEngine.Core.Utils" Collapsed="true">
+    <Position X="23.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgMAACAAEJDEGEAiUDBQAAoQAAwRQACEADAEAAADkEA=</HashCode>
+      <FileName>Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="BlogEngine.Core.ICustomFilter" Collapsed="true">
+    <Position X="18.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAQAAAAAAAAAAAAAAAAAAAAAIAAAABAA=</HashCode>
+      <FileName>ICustomFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BlogEngine.Core.IPublishable" Collapsed="true">
+    <Position X="20" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAgAEACiAAAAAQEAAAQEACIAAAEAAAAAAA=</HashCode>
+      <FileName>IPublishable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="BlogEngine.Core.SaveAction" Collapsed="true">
+    <Position X="18.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>SavedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BlogEngine.Core.ServingLocation" Collapsed="true">
+    <Position X="21.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAgEAACAAAAAAAAAAAAAAEAAAAIAAAAAAAAEAAAA=</HashCode>
+      <FileName>ServingEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BlogEngine.Core.ServingContentBy" Collapsed="true">
+    <Position X="20" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAABAAAgAACAgAAAAAAEAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>ServingEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BlogEngine.Core.SyndicationFormat" Collapsed="true">
+    <Position X="23.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>SyndicationFormat.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

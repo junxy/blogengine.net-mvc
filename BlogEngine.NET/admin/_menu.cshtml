@@ -1,0 +1,36 @@
+﻿
+@using BlogEngine.Core
+
+<ul id="ulMenu" class="toprounded">
+@{
+    var sitemap = SiteMap.Providers["SecuritySiteMap"];
+    if (sitemap != null)
+    {
+        var root = sitemap.RootNode;
+        if (root != null)
+        {
+            foreach (
+                var adminNode in
+                    root.ChildNodes.Cast<SiteMapNode>().Where(
+                        adminNode => adminNode.IsAccessibleToUser(HttpContext.Current)).Where(
+                            adminNode =>
+                            this.Request.RawUrl.ToUpperInvariant().Contains("/ADMIN/") ||
+                            (!adminNode.Url.Contains("xmanager") && !adminNode.Url.Contains("PingServices"))))
+            {
+                var cls = "";
+                var nodeUrl = adminNode.Url;
+                var nodeDir = adminNode.Url.Substring(0, adminNode.Url.LastIndexOf("/"));
+                
+                if (Request.RawUrl.IndexOf(nodeUrl, StringComparison.OrdinalIgnoreCase) != -1 ||
+                    (Request.RawUrl.IndexOf(nodeDir, StringComparison.OrdinalIgnoreCase) != -1) &&
+                    !nodeDir.EndsWith("/admin"))
+                {
+                    cls = "current";
+                }
+                
+                <li><a href="@adminNode.Url" class="@cls"><span>@Utils.Translate(adminNode.Title, adminNode.Title)</span></a></li>
+            }
+        }
+    }
+}
+</ul> 

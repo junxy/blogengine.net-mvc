@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="24d7d4dd-7bd6-4c5d-9e17-6c2be5abd7e3" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="b999373a-ff30-4ef3-9fe3-f7dc10319520" name="BlogEngine.Core">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="409dc8d1-168f-4754-a282-27108201f4f2" direction="Bidirectional">
+          <layerMoniker Id="1e185d0a-e817-4fdf-8d7f-f6c562de21cc" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="6245b712-b209-4339-a5b5-9ec97dba5075" name="BlogEngine.Core">
+          <ArtifactNode Label="BlogEngine.Core" Category="CodeSchema_Project" Id="(Assembly=../DotNetSlave.BusinessLogic/BlogEngine.Core.csproj)">
+            <Category Ref="CodeSchema_SourceFile" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=BlogEngine.Core)" Label="BlogEngine.Core.dll" Category="FileSystem.Category.FileOfType.dll">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="1e185d0a-e817-4fdf-8d7f-f6c562de21cc" name="C:\Sources\blogengine_myfork\BlogEngine\BlogEngine.NET\">
+      <references>
+        <reference Id="a76d5a67-16bf-45ed-b1cf-7fef997b9162" name="C:\Sources\blogengine_myfork\BlogEngine\BlogEngine.NET\">
+          <ArtifactNode Label="C:\Sources\blogengine_myfork\BlogEngine\BlogEngine.NET\" Category="CodeSchema_Project" Id="(Assembly=../BlogEngine.NET/)">
+            <Category Ref="CodeSchema_SourceFile" />
+          </ArtifactNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>

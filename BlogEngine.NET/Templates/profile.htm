@@ -1,0 +1,48 @@
+﻿
+    <h2>Personal Details</h2>
+    <table class="tblForm">
+        <tr>
+            <td>
+                <label for="txtFirstName" class="lbl">First Name</label>
+                <input type="text" id="txtFirstName" class="txt200" value="{$T.d.FirstName}" />
+            </td>
+            <td>
+                <label for="txtEmail" class="lbl indent">Email</label>
+                <input type="text" id="txtEmail" class="txt200" value="{$T.d.EmailAddress}" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="txtLastName" class="lbl">Last Name</label>
+                <input type="text" id="txtLastName" class="txt200" value="{$T.d.LastName}" />
+            </td>
+            <td>
+                <label for="txtBirthday" class="lbl">Birthday</label>
+                <input type="text" id="txtBirthday" class="txt200" value="{formatJSONDate($T.d.Birthday)}" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="txtMiddleName" class="lbl">Middle Name</label>
+                <input type="text" id="txtMiddleName" class="txt200" value="{$T.d.MiddleName}" />
+            </td>
+            <td>
+                <label for="txtPhotoURL" class="lbl">Photo URL</label>
+                <input type="text" id="txtPhotoURL" class="txt200" value="{$T.d.PhotoUrl}" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="txtDispalayName" class="lbl">Display Name</label>
+                <input type="text" id="txtDispalayName" class="txt200" value="{$T.d.DisplayName}" />
+            </td>
+            <td>
+                <label for="chkPrivate" class="lbl">&nbsp;</label>
+                <div class="clear"></div>
+                <div style="padding-top: 8px">
+                    <input type="checkbox" id="chkPrivate" {#if $T.d.Private} checked {#/if} />
+                    <label for="chkPrivate">Is Private</label>
+                </div>
+            </td>
+        </tr>
+    </table>

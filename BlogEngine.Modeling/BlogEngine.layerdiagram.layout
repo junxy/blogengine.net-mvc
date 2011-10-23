@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerDiagram dslVersion="1.0.0.0" Id="e8fd88d9-a34b-4e70-87da-c1ddadd29fc3" absoluteBounds="0, 0, 11, 8.5" name="BlogEngine">
+  <layerModelMoniker Id="24d7d4dd-7bd6-4c5d-9e17-6c2be5abd7e3" />
+  <nestedChildShapes>
+    <layerShape Id="a8b5e702-8a85-429d-b5ad-397217b15946" absoluteBounds="6.75, 2.5, 4, 0.75" customColor="161, 199, 231">
+      <layerMoniker Id="b999373a-ff30-4ef3-9fe3-f7dc10319520" />
+    </layerShape>
+    <layerShape Id="c994c8af-cd1a-4492-8632-cde0ca13040b" absoluteBounds="6.75, 1.25, 4, 0.75" customColor="161, 199, 231">
+      <layerMoniker Id="1e185d0a-e817-4fdf-8d7f-f6c562de21cc" />
+    </layerShape>
+    <dependencyConnector edgePoints="[(8.75 : 2.5); (8.75 : 2)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110">
+      <dependencyFromLayerToLayerMoniker Id="409dc8d1-168f-4754-a282-27108201f4f2" />
+      <relativeChildShapes />
+      <nodes>
+        <layerShapeMoniker Id="a8b5e702-8a85-429d-b5ad-397217b15946" />
+        <layerShapeMoniker Id="c994c8af-cd1a-4492-8632-cde0ca13040b" />
+      </nodes>
+    </dependencyConnector>
+  </nestedChildShapes>
+</layerDiagram>

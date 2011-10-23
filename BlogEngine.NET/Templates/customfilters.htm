@@ -1,0 +1,35 @@
+﻿<table id="customfilters" class="beTable rounded">
+  <thead>
+    <tr>
+	  <th width="60">Enabled</th>
+      <th width="auto">Name</th>
+      <th width="140">Checked</th>
+	  <th width="140">Spam</th>
+      <th width="140">Mistakes</th>
+      <th width="140">Accuracy</th>
+	  <th width="80">&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody>
+    {#foreach $T.d as item}
+	<tr id="{$T.item.FullName}" class="{#cycle values=['','alt']}">
+	  <td><input type="checkbox" name="chk"{$T.item.FullName} disabled="disabled" {#if $T.item.Enabled == true} checked="checked"{#/if} class="chk"/></td>
+      <td>{$T.item.Name}</td>
+      <td>{$T.item.Checked}</td>
+      <td>{$T.item.Spam}</td>
+      <td>{$T.item.Mistakes}</td>
+      <td>{$T.item.Accuracy}%</td>
+      <td>
+        <ul class="rowTools">
+            <li>
+                <a class="toolsAction" href="#"><span class="">Tools</span></a>
+                <ul class="rowToolsMenu">
+                    <li><a href="#" onclick="return ResetCounters('{$T.item.Name}')" class="unapproveAction">Reset</a></li>
+                </ul>
+            </li>
+        </ul>
+      </td>
+    </tr>
+    {#/for}
+  </tbody>
+</table>
