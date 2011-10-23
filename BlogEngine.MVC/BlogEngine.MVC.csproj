@@ -12,7 +12,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BlogEngine.MVC</RootNamespace>
     <AssemblyName>BlogEngine.MVC</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>false</UseIISExpress>
     <TargetFrameworkProfile />
@@ -42,7 +42,6 @@
     <Reference Include="System.ComponentModel.DataAnnotations">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.Extensions" />
@@ -141,20 +140,6 @@
     <None Include="_bin_deployableAssemblies\zh-Hans\System.Web.Helpers.resources.dll" />
     <None Include="_bin_deployableAssemblies\zh-Hans\NuGet.Core.resources.dll" />
     <None Include="_bin_deployableAssemblies\zh-Hans\Microsoft.Web.Infrastructure.resources.dll" />
-    <None Include="_bin_deployableAssemblies\System.Web.WebPages.xml" />
-    <None Include="_bin_deployableAssemblies\System.Web.WebPages.Razor.xml" />
-    <None Include="_bin_deployableAssemblies\System.Web.WebPages.Razor.dll" />
-    <None Include="_bin_deployableAssemblies\System.Web.WebPages.dll" />
-    <None Include="_bin_deployableAssemblies\System.Web.WebPages.Deployment.xml" />
-    <None Include="_bin_deployableAssemblies\System.Web.WebPages.Deployment.dll" />
-    <None Include="_bin_deployableAssemblies\System.Web.WebPages.Administration.dll" />
-    <None Include="_bin_deployableAssemblies\System.Web.Razor.xml" />
-    <None Include="_bin_deployableAssemblies\System.Web.Razor.dll" />
-    <None Include="_bin_deployableAssemblies\System.Web.Helpers.xml" />
-    <None Include="_bin_deployableAssemblies\System.Web.Helpers.dll" />
-    <None Include="_bin_deployableAssemblies\NuGet.Core.dll" />
-    <None Include="_bin_deployableAssemblies\Microsoft.Web.Infrastructure.xml" />
-    <None Include="_bin_deployableAssemblies\Microsoft.Web.Infrastructure.dll" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Themes\" />
