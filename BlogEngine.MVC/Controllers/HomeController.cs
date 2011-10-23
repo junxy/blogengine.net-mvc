@@ -6,9 +6,11 @@ using System.Web.Mvc;
 using Be = BlogEngine.Core;
 using BlogEngine.Core;
 using BlogEngine.MVC.ViewsModels;
+using BlogEngine.MVC.Framework;
 
 namespace BlogEngine.MVC.Controllers
 {
+    [Compress]
     [HandleError]
     public class HomeController : Controller
     {
@@ -56,11 +58,27 @@ namespace BlogEngine.MVC.Controllers
 
         public ActionResult Archive()
         {
-            return View();
+            var model = new ArchiveViewModel()
+            {
+                Base = GetBaseViewModel(),
+                Categories = Category.Categories,
+                NoCatList = Be.Post.Posts.FindAll(delegate(Post p) { return p.Categories.Count == 0 && p.IsVisible; })
+            };
+
+            return View(model);
         }
 
         public ActionResult Contact()
         {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Contact(ContactViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+            }
+
             return View();
         }
 

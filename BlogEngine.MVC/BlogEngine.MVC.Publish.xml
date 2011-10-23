@@ -3,8 +3,8 @@
   <publishProfile publishUrl="C:\Users\Junxy\Desktop\WebSite" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
     <file relUrl="bin/amd64/sqlceer40EN.dll" publishTime="01/05/2011 21:48:22" />
     <file relUrl="Views/Home/Index.aspx" publishTime="10/23/2011 15:25:38" />
-    <file relUrl="bin/BlogEngine.MVC.pdb" publishTime="10/23/2011 16:01:50" />
-    <file relUrl="bin/BlogEngine.MVC.dll" publishTime="10/23/2011 16:01:50" />
+    <file relUrl="bin/BlogEngine.MVC.pdb" publishTime="10/23/2011 21:29:46" />
+    <file relUrl="bin/BlogEngine.MVC.dll" publishTime="10/23/2011 21:29:46" />
     <file relUrl="bin/x86/sqlceca40.dll" publishTime="01/05/2011 22:12:40" />
     <file relUrl="bin/amd64/sqlceqp40.dll" publishTime="01/05/2011 21:48:22" />
     <file relUrl="Global.asax" publishTime="10/23/2011 13:23:45" />
@@ -22,7 +22,7 @@
     <file relUrl="bin/x86/sqlceme40.dll" publishTime="01/05/2011 22:12:40" />
     <file relUrl="Scripts/jquery.validate.min.js" publishTime="10/23/2011 13:23:45" />
     <file relUrl="Views/Home/Post.aspx" publishTime="10/23/2011 14:57:18" />
-    <file relUrl="App_Data/BlogEngine.sdf" publishTime="10/23/2011 19:20:50" />
+    <file relUrl="App_Data/BlogEngine.sdf" publishTime="10/23/2011 22:09:44" />
     <file relUrl="Views/Account/ChangePasswordSuccess.aspx" publishTime="10/23/2011 13:23:45" />
     <file relUrl="bin/x86/sqlceqp40.dll" publishTime="01/05/2011 22:12:40" />
     <file relUrl="bin/amd64/sqlcecompact40.dll" publishTime="01/05/2011 21:48:22" />
@@ -35,11 +35,11 @@
     <file relUrl="bin/System.Web.Mvc.dll" publishTime="02/17/2010 08:24:14" />
     <file relUrl="Scripts/MicrosoftMvcAjax.debug.js" publishTime="10/23/2011 13:23:45" />
     <file relUrl="Scripts/MicrosoftMvcAjax.js" publishTime="10/23/2011 13:23:45" />
-    <file relUrl="Views/Home/Archive.aspx" publishTime="10/23/2011 16:04:32" />
+    <file relUrl="Views/Home/Archive.aspx" publishTime="10/23/2011 21:17:43" />
     <file relUrl="bin/zh-CN/System.Data.SqlServerCe.xml" publishTime="02/23/2011 15:20:38" />
     <file relUrl="bin/BlogEngine.Core.dll" publishTime="10/23/2011 16:01:49" />
     <file relUrl="bin/AjaxMin.dll" publishTime="03/28/2011 00:32:46" />
-    <file relUrl="Views/Home/Contact.aspx" publishTime="10/23/2011 16:04:36" />
+    <file relUrl="Views/Home/Contact.aspx" publishTime="10/23/2011 21:33:56" />
     <file relUrl="Content/Site.css" publishTime="10/23/2011 13:23:45" />
     <file relUrl="Scripts/jquery.validate.js" publishTime="10/23/2011 13:23:45" />
     <file relUrl="bin/amd64/sqlceme40.dll" publishTime="01/05/2011 21:48:22" />

@@ -8,10 +8,11 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
 using BlogEngine.MVC.Models;
+using BlogEngine.MVC.Framework;
 
 namespace BlogEngine.MVC.Controllers
 {
-
+    [Compress]
     [HandleError]
     public class AccountController : Controller
     {
