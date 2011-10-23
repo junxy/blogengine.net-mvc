@@ -1,14 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Web Developer Express 2010
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngine.Core", "DotNetSlave.BusinessLogic\BlogEngine.Core.csproj", "{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BlogEngine.NET", "BlogEngine.NET\", "{B02E9840-1261-47AB-AE40-D333E73BB2C0}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "localhost", "http://localhost:38932", "{8AB22CFB-CBDD-4D3A-A987-8BFDB2180026}"
 	ProjectSection(WebsiteProperties) = preProject
 		SccProjectName = ""
 		SccAuxPath = ""
 		SccLocalPath = ""
 		SccProvider = ""
+		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		ProjectReferences = "{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}|BlogEngine.Core.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/BlogEngine.NET"
@@ -31,7 +32,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BlogEngine.NET", "BlogEngin
 		Release.AspNetCompiler.AllowPartiallyTrustedCallers = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "52457"
+		SlnRelativePath = "BlogEngine.NET\"
 	EndProjectSection
 EndProject
 Global
@@ -54,16 +55,16 @@ Global
 		{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{B02E9840-1261-47AB-AE40-D333E73BB2C0}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{B02E9840-1261-47AB-AE40-D333E73BB2C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B02E9840-1261-47AB-AE40-D333E73BB2C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B02E9840-1261-47AB-AE40-D333E73BB2C0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{B02E9840-1261-47AB-AE40-D333E73BB2C0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{B02E9840-1261-47AB-AE40-D333E73BB2C0}.Release|.NET.ActiveCfg = Debug|Any CPU
-		{B02E9840-1261-47AB-AE40-D333E73BB2C0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{B02E9840-1261-47AB-AE40-D333E73BB2C0}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{B02E9840-1261-47AB-AE40-D333E73BB2C0}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{B02E9840-1261-47AB-AE40-D333E73BB2C0}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8AB22CFB-CBDD-4D3A-A987-8BFDB2180026}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{8AB22CFB-CBDD-4D3A-A987-8BFDB2180026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB22CFB-CBDD-4D3A-A987-8BFDB2180026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB22CFB-CBDD-4D3A-A987-8BFDB2180026}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8AB22CFB-CBDD-4D3A-A987-8BFDB2180026}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8AB22CFB-CBDD-4D3A-A987-8BFDB2180026}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{8AB22CFB-CBDD-4D3A-A987-8BFDB2180026}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB22CFB-CBDD-4D3A-A987-8BFDB2180026}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8AB22CFB-CBDD-4D3A-A987-8BFDB2180026}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8AB22CFB-CBDD-4D3A-A987-8BFDB2180026}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
