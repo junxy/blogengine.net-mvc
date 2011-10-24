@@ -68,10 +68,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AjaxMin">
-      <HintPath>..\..\lib\ajaxminify\AjaxMin.dll</HintPath>
+      <HintPath>..\lib\ajaxminify\AjaxMin.dll</HintPath>
     </Reference>
     <Reference Include="BlogML">
-      <HintPath>..\..\lib\blogml\BlogML.dll</HintPath>
+      <HintPath>..\lib\blogml\BlogML.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />

@@ -26,6 +26,7 @@
                     <li><%= Html.ActionLink("首页", "index", "home") %></li>
                     <li><%= Html.ActionLink("归档", "archive", "home") %></li>
                     <li><%= Html.ActionLink("联系", "contact", "home") %></li>
+                    <li><%= Html.ActionLink("Admin", "index", new { controller = "home", area = "admin" }) %></li>
                     
                 </ul>
             

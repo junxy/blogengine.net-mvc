@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngine.MVC", "BlogEngin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngine.MVC.Tests", "BlogEngine.MVC.Tests\BlogEngine.MVC.Tests.csproj", "{AAAA76E4-4365-4C3B-8D37-516B54D24434}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngine.Admin", "BlogEngine.MVC\Administration\BlogEngine.Admin.csproj", "{CC8C216E-A921-45DC-9369-14543442D277}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{5814002E-2573-471B-9BF6-3112D563D55E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
@@ -89,9 +93,24 @@ Global
 		{AAAA76E4-4365-4C3B-8D37-516B54D24434}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AAAA76E4-4365-4C3B-8D37-516B54D24434}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{AAAA76E4-4365-4C3B-8D37-516B54D24434}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CC8C216E-A921-45DC-9369-14543442D277}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{CC8C216E-A921-45DC-9369-14543442D277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8C216E-A921-45DC-9369-14543442D277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8C216E-A921-45DC-9369-14543442D277}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CC8C216E-A921-45DC-9369-14543442D277}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CC8C216E-A921-45DC-9369-14543442D277}.Release|.NET.ActiveCfg = Release|Any CPU
+		{CC8C216E-A921-45DC-9369-14543442D277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8C216E-A921-45DC-9369-14543442D277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8C216E-A921-45DC-9369-14543442D277}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CC8C216E-A921-45DC-9369-14543442D277}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA0F451C-2E36-440A-9987-4E22B05B35B6} = {5814002E-2573-471B-9BF6-3112D563D55E}
+		{CC8C216E-A921-45DC-9369-14543442D277} = {5814002E-2573-471B-9BF6-3112D563D55E}
+		{AAAA76E4-4365-4C3B-8D37-516B54D24434} = {5814002E-2573-471B-9BF6-3112D563D55E}
 	EndGlobalSection
 	GlobalSection(SpecExplorer.ActivityCompletionStatus) = preSolution
 		SpecExplorer.ActivityCompletionStatus = 
