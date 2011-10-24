@@ -60,6 +60,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Framework\CompressAttribute.cs" />
+    <Compile Include="Framework\CustomWebFormViewEngine.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

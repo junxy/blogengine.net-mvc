@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="height: 100%;">
+<head runat="server">
+    <title>BlogEngine.NET Admin<%--<asp:ContentPlaceHolder ID="TitleContent" runat="server" />--%></title>
+    <link rel="stylesheet" href="/Administration/Content/style.css" type="text/css" />
+    <link rel="stylesheet" href="/Administration/Content/colorbox.css" type="text/css" />
+    <link rel="stylesheet" href="/Administration/Content/tipsy.css" type="text/css" />
+    <link rel="shortcut icon" href="~/pics/blogengine.ico" type="image/x-icon" />
+</head>
+<body>
+    <div class="page">
+        <div id="StatusBox">
+            <div id="AdminStatus" runat="server">
+            </div>
+        </div>
+        <div class="header">
+            <div class="be-logo">
+                <span>
+                    <%=BlogEngine.Core.BlogSettings.Instance.Name %>
+                    Admin</span>
+            </div>
+            <div class="toolbox">
+                DDD
+            </div>
+        </div>
+        <div class="tabs toprounded">
+            <div>
+                menu</div>
+            <div>
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="cphAdmin" runat="server" />
+        </div>
+        <div id="footer">
+            <a href="http://dotnetblogengine.net">BlogEngine.NET
+                <%=BlogEngine.Core.BlogSettings.Instance.Version() %></a> | <a id="donate" runat="server" href="#" alt="Donate" target="_new">
+                    donate</a>
+        </div>
+    </div>
+</body>
+</html>

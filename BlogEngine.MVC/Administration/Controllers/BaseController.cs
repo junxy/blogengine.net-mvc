@@ -6,15 +6,10 @@ using System.Web.Mvc;
 
 namespace BlogEngine.Admin.Controllers
 {
-    public class HomeController : BaseController
+    public class BaseController : Controller
     {
-        //
-        // GET: /Home/
 
-        public ActionResult Index()
-        {
-            return View();
-        }
+
 
     }
 }

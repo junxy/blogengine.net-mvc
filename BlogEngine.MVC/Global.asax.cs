@@ -42,6 +42,12 @@ namespace BlogEngine.MVC
 
         protected void Application_Start()
         {
+            //remove all view engines
+            ViewEngines.Engines.Clear();
+            //except the themeable razor view engine we use
+            ViewEngines.Engines.Add(new CustomWebFormViewEngine());
+
+
             AreaRegistration.RegisterAllAreas();
 
             RegisterRoutes(RouteTable.Routes);
