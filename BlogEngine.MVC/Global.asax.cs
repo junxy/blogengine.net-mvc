@@ -45,6 +45,7 @@ namespace BlogEngine.MVC
             //remove all view engines
             ViewEngines.Engines.Clear();
             //except the themeable razor view engine we use
+            ViewEngines.Engines.Add(new CustomRazorViewEngine());
             ViewEngines.Engines.Add(new CustomWebFormViewEngine());
 
 

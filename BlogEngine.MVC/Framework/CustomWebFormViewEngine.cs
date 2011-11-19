@@ -4,7 +4,10 @@ namespace BlogEngine.MVC.Framework
 {
     public class CustomWebFormViewEngine : WebFormViewEngine
     {
-        public CustomWebFormViewEngine()
+        public CustomWebFormViewEngine() : base() { }
+
+        public CustomWebFormViewEngine(IViewPageActivator viewPageActivator)
+            : base(viewPageActivator)
         {
             MasterLocationFormats = new[] {
                 "~/Views/{1}/{0}.master",
@@ -15,8 +18,6 @@ namespace BlogEngine.MVC.Framework
                 "~/Administration/Views/{1}/{0}.master",
                 "~/Administration/Views/Shared/{0}.master",
 
-                "~/Areas/{2}/Views/{1}/{0}.master",
-                "~/Areas/{2}/Views/Shared/{0}.master",
             };
 
             ViewLocationFormats = new[] {
@@ -32,10 +33,6 @@ namespace BlogEngine.MVC.Framework
                 "~/Administration/Views/Shared/{0}.aspx",
                 "~/Administration/Views/Shared/{0}.ascx",
 
-                "~/Areas/{2}/Views/{1}/{0}.aspx",
-                "~/Areas/{2}/Views/{1}/{0}.ascx",
-                "~/Areas/{2}/Views/Shared/{0}.aspx",
-                "~/Areas/{2}/Views/Shared/{0}.ascx",
             };
 
             PartialViewLocationFormats = ViewLocationFormats;
