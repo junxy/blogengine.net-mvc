@@ -4,38 +4,25 @@
 * intended to be used only for design-time IntelliSense.  Please use the
 * standard jQuery library for all production use.
 *
-* Comment version: 1.6
+* Comment version: 1.8
 */
 
 /*
- * jQuery validation plug-in 1.6
- *
- * http://bassistance.de/jquery-plugins/jquery-plugin-validation/
- * http://docs.jquery.com/Plugins/Validation
- *
- * Copyright (c) 2006 - 2008 J??rn Zaefferer
- *
- * $Id: jquery.validate.js 6403 2009-06-17 14:27:16Z joern.zaefferer $
- *
- * Permission is hereby granted, free of charge, to any person obtaining
- * a copy of this software and associated documentation files (the
- * "Software"), to deal in the Software without restriction, including
- * without limitation the rights to use, copy, modify, merge, publish,
- * distribute, sublicense, and/or sell copies of the Software, and to
- * permit persons to whom the Software is furnished to do so, subject to
- * the following conditions:
- *
- * The above copyright notice and this permission notice shall be
- * included in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
- * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
- * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
- * LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
- * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
- * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
- */
+* Note: While Microsoft is not the author of this file, Microsoft is
+* offering you a license subject to the terms of the Microsoft Software
+* License Terms for Microsoft ASP.NET Model View Controller 3.
+* Microsoft reserves all other rights. The notices below are provided
+* for informational purposes only and are not the license terms under
+* which Microsoft distributed this file.
+*
+* jQuery validation plugin 1.8.0
+*
+* http://bassistance.de/jquery-plugins/jquery-plugin-validation/
+* http://docs.jquery.com/Plugins/Validation
+*
+* Copyright (c) 2006 - 2011 J枚rn Zaefferer
+*
+*/
 
 (function($) {
 
@@ -43,13 +30,13 @@ $.extend($.fn, {
 	// http://docs.jquery.com/Plugins/Validation/validate
 	validate: function( options ) {
 		/// <summary>
-		/// 验证所选表单。此方法将为 submit、focus、
-		/// keyup、blur 和 click 设置事件处理程序，用于触发整个表单或各个
-		/// 元素的验证操作。可以禁用每个事件，请参见 onxxx 选项(onsubmit、onfocusout、
-		/// onkeyup 和 onclick)。当提交的表单无效时，focusInvalid 将焦点设置在元素上。
+		/// Validates the selected form. This method sets up event handlers for submit, focus,
+		/// keyup, blur and click to trigger validation of the entire form or individual
+		/// elements. Each one can be disabled, see the onxxx options (onsubmit, onfocusout,
+		/// onkeyup, onclick). focusInvalid focuses elements when submitting a invalid form.
 		/// </summary>
 		/// <param name="options" type="Options">
-		/// 配置验证的一组键/值对。所有选项都是可选的。
+		/// A set of key/value pairs that configure the validate. All options are optional.
 		/// </param>
 		/// <returns type="Validator" />
 
@@ -127,8 +114,8 @@ $.extend($.fn, {
 	// http://docs.jquery.com/Plugins/Validation/valid
 	valid: function() {
 		/// <summary>
-		/// 检查选定表单是否有效，或检查所选全部元素是否都有效。
-		/// 使用此方法检查表单之前，需要对表单调用 validate()。
+		/// Checks if the selected form is valid or if all selected elements are valid.
+		/// validate() needs to be called on the form before checking it using this method.
 		/// </summary>
 		/// <returns type="Boolean" />
 
@@ -146,10 +133,10 @@ $.extend($.fn, {
 	// attributes: space seperated list of attributes to retrieve and remove
 	removeAttrs: function(attributes) {
 		/// <summary>
-		/// 从首个匹配的元素中移除指定的特性并返回这些特性。
+		/// Remove the specified attributes from the first matched element and return them.
 		/// </summary>
 		/// <param name="attributes" type="String">
-		/// 要移除的特性名称的空格分隔列表。
+		/// A space-seperated list of attribute names to remove.
 		/// </param>
 		/// <returns type="" />
 
@@ -164,13 +151,13 @@ $.extend($.fn, {
 	// http://docs.jquery.com/Plugins/Validation/rules
 	rules: function(command, argument) {
 		/// <summary>
-		/// 为首个选定的元素返回验证规则。
+		/// Return the validations rules for the first selected element.
 		/// </summary>
 		/// <param name="command" type="String">
-		/// 可以是“add”或“remove”。
+		/// Can be either "add" or "remove".
 		/// </param>
 		/// <param name="argument" type="">
-		/// 要添加或移除的规则的列表。
+		/// A list of rules to add or remove.
 		/// </param>
 		/// <returns type="" />
 
@@ -233,22 +220,22 @@ $.extend($.expr[":"], {
 
 // constructor for validator
 $.validator = function( options, form ) {
-	this.settings = $.extend( {}, $.validator.defaults, options );
+	this.settings = $.extend( true, {}, $.validator.defaults, options );
 	this.currentForm = form;
 	this.init();
 };
 
 $.validator.format = function(source, params) {
 	/// <summary>
-	/// 用参数替换 {n} 占位符。
-	/// 除了字符串模板自身以外，还可以传递一个或多个参数，以插入到
-	/// 字符串中。
+	/// Replaces {n} placeholders with arguments.
+	/// One or more arguments can be passed, in addition to the string template itself, to insert
+	/// into the string.
 	/// </summary>
 	/// <param name="source" type="String">
-	/// 要设置格式的字符串。
+	/// The string to format.
 	/// </param>
 	/// <param name="params" type="String">
-	/// 要插入的首个参数，或要插入的字符串数组
+	/// The first argument to insert, or an array of Strings to insert
 	/// </param>
 	/// <returns type="String" />
 
@@ -291,7 +278,7 @@ $.extend($.validator, {
 			// hide error label and remove error class on focus if enabled
 			if ( this.settings.focusCleanup && !this.blockFocusCleanup ) {
 				this.settings.unhighlight && this.settings.unhighlight.call( this, element, this.settings.errorClass, this.settings.validClass );
-				this.errorsFor(element).hide();
+				this.addWrapper(this.errorsFor(element)).hide();
 			}
 		},
 		onfocusout: function(element) {
@@ -310,7 +297,7 @@ $.extend($.validator, {
 				this.element(element);
 			// or option elements, check parent select in that case
 			else if (element.parentNode.name in this.submitted)
-				this.element(element.parentNode)
+				this.element(element.parentNode);
 		},
 		highlight: function( element, errorClass, validClass ) {
 			$(element).addClass(errorClass).removeClass(validClass);
@@ -323,11 +310,11 @@ $.extend($.validator, {
 	// http://docs.jquery.com/Plugins/Validation/Validator/setDefaults
 	setDefaults: function(settings) {
 		/// <summary>
-		/// 修改验证操作的默认设置。
-		/// 接受 Plugins/Validation/validate 接受的所有内容。
+		/// Modify default settings for validation.
+		/// Accepts everything that Plugins/Validation/validate accepts.
 		/// </summary>
 		/// <param name="settings" type="Options">
-		/// 要设置为默认值的选项。
+		/// Options to set as default.
 		/// </param>
 		/// <returns type="undefined" />
 
@@ -338,11 +325,11 @@ $.extend($.validator, {
 		required: "This field is required.",
 		remote: "Please fix this field.",
 		email: "Please enter a valid email address.",
-		url: "请输入有效的 URL。",
+		url: "Please enter a valid URL.",
 		date: "Please enter a valid date.",
-		dateISO: "请输入有效的日期(ISO)。",
+		dateISO: "Please enter a valid date (ISO).",
 		number: "Please enter a valid number.",
-		digits: "请只输入数字。",
+		digits: "Please enter only digits.",
 		creditcard: "Please enter a valid credit card number.",
 		equalTo: "Please enter the same value again.",
 		accept: "Please enter a value with a valid extension.",
@@ -381,12 +368,13 @@ $.extend($.validator, {
 			});
 			
 			function delegate(event) {
-				var validator = $.data(this[0].form, "validator");
-				validator.settings["on" + event.type] && validator.settings["on" + event.type].call(validator, this[0] );
+				var validator = $.data(this[0].form, "validator"),
+					eventType = "on" + event.type.replace(/^validate/, "");
+				validator.settings[eventType] && validator.settings[eventType].call(validator, this[0] );
 			}
 			$(this.currentForm)
-				.delegate("focusin focusout keyup", ":text, :password, :file, select, textarea", delegate)
-				.delegate("click", ":radio, :checkbox, select, option", delegate);
+				.validateDelegate(":text, :password, :file, select, textarea", "focusin focusout keyup", delegate)
+				.validateDelegate(":radio, :checkbox, select, option", "click", delegate);
 
 			if (this.settings.invalidHandler)
 				$(this.currentForm).bind("invalid-form.validate", this.settings.invalidHandler);
@@ -395,8 +383,8 @@ $.extend($.validator, {
 		// http://docs.jquery.com/Plugins/Validation/Validator/form
 		form: function() {
 			/// <summary>
-			/// 验证表单。如果表单有效，则返回 true；否则返回 false。
-			/// 此行为与普通 submit 事件类似，但它返回的是结果。
+			/// Validates the form, returns true if it is valid, false otherwise.
+			/// This behaves as a normal submit event, but returns the result.
 			/// </summary>
 			/// <returns type="Boolean" />
 
@@ -420,11 +408,11 @@ $.extend($.validator, {
 		// http://docs.jquery.com/Plugins/Validation/Validator/element
 		element: function( element ) {
 			/// <summary>
-			/// 验证单个元素。如果元素有效，则返回 true；否则返回 false。
-			/// 此行为类似于对 blur 或 keyup 进行验证操作，但它返回的是结果。
+			/// Validates a single element, returns true if it is valid, false otherwise.
+			/// This behaves as validation on blur or keyup, but returns the result.
 			/// </summary>
 			/// <param name="element" type="Selector">
-			/// 要验证的元素，该元素必须位于已验证的表单内。
+			/// An element to validate, must be inside the validated form.
 			/// </param>
 			/// <returns type="Boolean" />
 
@@ -449,11 +437,11 @@ $.extend($.validator, {
 		// http://docs.jquery.com/Plugins/Validation/Validator/showErrors
 		showErrors: function(errors) {
 			/// <summary>
-			/// 显示指定的消息。
-			/// 键必须指代元素的名称，将显示那些元素所对应的值(使用已配置的错误位置)。
+			/// Show the specified messages.
+			/// Keys have to refer to the names of elements, values are displayed for those elements, using the configured error placement.
 			/// </summary>
 			/// <param name="errors" type="Object">
-			/// 输入名称和消息的一个或多个键/值对。
+			/// One or more key/value pairs of input names and messages.
 			/// </param>
 			/// <returns type="undefined" />
 
@@ -480,9 +468,9 @@ $.extend($.validator, {
 		// http://docs.jquery.com/Plugins/Validation/Validator/resetForm
 		resetForm: function() {
 			/// <summary>
-			/// 重置受控表单。
-			/// 将输入字段重置为其原始值(需要表单插件)，移除指示无效元素的
-			/// 类并隐藏错误消息。
+			/// Resets the controlled form.
+			/// Resets input fields to their original value (requires form plugin), removes classes
+			/// indicating invalid elements and hides error messages.
 			/// </summary>
 			/// <returns type="undefined" />
 
@@ -496,10 +484,10 @@ $.extend($.validator, {
 		
 		numberOfInvalids: function() {
 			/// <summary>
-			/// 返回无效字段的个数。
-			/// 这依赖于内部验证程序的状态。只有在验证整个表单
-			/// (在提交时或通过调用 $("form").valid())之后才会覆盖所有字段。在验证
-			/// 单个元素之后，只计入相应的元素。与 invalidHandler-option 组合时
+			/// Returns the number of invalid fields.
+			/// This depends on the internal validator state. It covers all fields only after
+			/// validating the complete form (on submit or via $("form").valid()). After validating
+			/// a single element, only that element is counted. Most useful in combination with the
 			/// invalidHandler-option.
 			/// </summary>
 			/// <returns type="Number" />
@@ -529,7 +517,11 @@ $.extend($.validator, {
 		focusInvalid: function() {
 			if( this.settings.focusInvalid ) {
 				try {
-					$(this.findLastActive() || this.errorList.length && this.errorList[0].element || []).filter(":visible").focus();
+					$(this.findLastActive() || this.errorList.length && this.errorList[0].element || [])
+					.filter(":visible")
+					.focus()
+					// manually trigger focusin event; without it, focusin handler isn't called, findLastActive won't have anything to find
+					.trigger("focusin");
 				} catch(e) {
 					// ignore IE throwing errors when focusing hidden elements
 				}
@@ -554,7 +546,7 @@ $.extend($.validator, {
 			.not(":submit, :reset, :image, [disabled]")
 			.not( this.settings.ignore )
 			.filter(function() {
-				!this.name && validator.settings.debug && window.console && console.error( "没有为 %o 分配名称", this);
+				!this.name && validator.settings.debug && window.console && console.error( "%o has no name assigned", this);
 			
 				// select only the first element for each name, and only those with rules specified
 				if ( this.name in rulesCache || !validator.objectLength($(this).rules()) )
@@ -597,12 +589,12 @@ $.extend($.validator, {
 			
 			// if radio/checkbox, validate first element in group instead
 			if (this.checkable(element)) {
-				element = this.findByName( element.name )[0];
+			    element = this.findByName(element.name).not(this.settings.ignore)[0];
 			}
 			
 			var rules = $(element).rules();
 			var dependencyMismatch = false;
-			for( method in rules ) {
+			for (var method in rules) {
 				var rule = { method: method, parameters: rules[method] };
 				try {
 					var result = $.validator.methods[method].call( this, element.value.replace(/\r/g, ""), element, rule.parameters );
@@ -674,7 +666,7 @@ $.extend($.validator, {
 				// title is never undefined, so handle empty string as undefined
 				!this.settings.ignoreTitle && element.title || undefined,
 				$.validator.messages[method],
-				"<strong>警告: 没有为它们定义任何消息" + element.name + "</strong>"
+				"<strong>Warning: No message defined for " + element.name + "</strong>"
 			);
 		},
 		
@@ -771,7 +763,7 @@ $.extend($.validator, {
 		errorsFor: function(element) {
 			var name = this.idOrName(element);
     		return this.errors().filter(function() {
-				return $(this).attr('for') == name
+				return $(this).attr('for') == name;
 			});
 		},
 		
@@ -869,17 +861,16 @@ $.extend($.validator, {
 		creditcard: {creditcard: true}
 	},
 	
-	// http://docs.jquery.com/Plugins/Validation/Validator/addClassRules#namerules
 	addClassRules: function(className, rules) {
 		/// <summary>
-		/// 添加一个复合类方法，这对于将常见的规则组合重构为单个
-		/// 类很有用。
+		/// Add a compound class method - useful to refactor common combinations of rules into a single
+		/// class.
 		/// </summary>
 		/// <param name="name" type="String">
-		/// 要添加的类规则的名称
+		/// The name of the class rule to add
 		/// </param>
 		/// <param name="rules" type="Options">
-		/// 复合规则
+		/// The compound rules
 		/// </param>
 		/// <returns type="undefined" />
 
@@ -902,8 +893,8 @@ $.extend($.validator, {
 	attributeRules: function(element) {
 		var rules = {};
 		var $element = $(element);
-		
-		for (method in $.validator.methods) {
+
+		for (var method in $.validator.methods) {
 			var value = $element.attr(method);
 			if (value) {
 				rules[method] = value;
@@ -995,7 +986,7 @@ $.extend($.validator, {
 		
 		// To support custom messages in metadata ignore rule methods titled "messages"
 		if (rules.messages) {
-			delete rules.messages
+			delete rules.messages;
 		}
 		
 		return rules;
@@ -1016,20 +1007,20 @@ $.extend($.validator, {
 	// http://docs.jquery.com/Plugins/Validation/Validator/addMethod
 	addMethod: function(name, method, message) {
 		/// <summary>
-		/// 添加一个自定义验证方法。此方法必须包含一个名称(必须是合法的 javascript 
-		/// 标识符)、一个基于 javascript 的函数和一个默认字符串消息。
+		/// Add a custom validation method. It must consist of a name (must be a legal javascript 
+		/// identifier), a javascript based function and a default string message.
 		/// </summary>
 		/// <param name="name" type="String">
-		/// 用于标识和引用方法的名称必须是有效的 javascript
-		/// 标识符
+		/// The name of the method, used to identify and referencing it, must be a valid javascript
+		/// identifier
 		/// </param>
 		/// <param name="method" type="Function">
-		/// 实际的方法实现，在元素有效时返回 true
+		/// The actual method implementation, returning true if an element is valid
 		/// </param>
 		/// <param name="message" type="String" optional="true">
-		/// (可选)要为此方法显示的默认消息。可以是由
-		/// jQuery.validator.format(value) 创建的函数。若未定义，则使用已经存在的消息
-		/// (方便本地化)，否则必须定义特定于字段的消息。
+		/// (Optional) The default message to display for this method. Can be a function created by 
+		/// jQuery.validator.format(value). When undefined, an already existing message is used 
+		/// (handy for localization), otherwise the field-specific messages have to be defined.
 		/// </param>
 		/// <returns type="undefined" />
 
@@ -1073,42 +1064,44 @@ $.extend($.validator, {
 			
 			param = typeof param == "string" && {url:param} || param; 
 			
-			if ( previous.old !== value ) {
-				previous.old = value;
-				var validator = this;
-				this.startRequest(element);
-				var data = {};
-				data[element.name] = value;
-				$.ajax($.extend(true, {
-					url: param,
-					mode: "abort",
-					port: "validate" + element.name,
-					dataType: "json",
-					data: data,
-					success: function(response) {
-						validator.settings.messages[element.name].remote = previous.originalMessage;
-						var valid = response === true;
-						if ( valid ) {
-							var submitted = validator.formSubmitted;
-							validator.prepareElement(element);
-							validator.formSubmitted = submitted;
-							validator.successList.push(element);
-							validator.showErrors();
-						} else {
-							var errors = {};
-							var message = (previous.message = response || validator.defaultMessage( element, "remote" ));
-							errors[element.name] = $.isFunction(message) ? message(value) : message;
-							validator.showErrors(errors);
-						}
-						previous.valid = valid;
-						validator.stopRequest(element, valid);
-					}
-				}, param));
-				return "pending";
-			} else if( this.pending[element.name] ) {
+			if ( this.pending[element.name] ) {
 				return "pending";
 			}
-			return previous.valid;
+			if ( previous.old === value ) {
+				return previous.valid;
+			}
+
+			previous.old = value;
+			var validator = this;
+			this.startRequest(element);
+			var data = {};
+			data[element.name] = value;
+			$.ajax($.extend(true, {
+				url: param,
+				mode: "abort",
+				port: "validate" + element.name,
+				dataType: "json",
+				data: data,
+				success: function(response) {
+					validator.settings.messages[element.name].remote = previous.originalMessage;
+					var valid = response === true;
+					if ( valid ) {
+						var submitted = validator.formSubmitted;
+						validator.prepareElement(element);
+						validator.formSubmitted = submitted;
+						validator.successList.push(element);
+						validator.showErrors();
+					} else {
+						var errors = {};
+						var message = response || validator.defaultMessage(element, "remote");
+						errors[element.name] = previous.message = $.isFunction(message) ? message(value) : message;
+						validator.showErrors(errors);
+					}
+					previous.valid = valid;
+					validator.stopRequest(element, valid);
+				}
+			}, param));
+			return "pending";
 		},
 
 		// http://docs.jquery.com/Plugins/Validation/Methods/minlength
@@ -1231,20 +1224,33 @@ $.format = $.validator.format;
 // usage: $.ajax({ mode: "abort"[, port: "uniqueport"]});
 // if mode:"abort" is used, the previous request on that port (port can be undefined) is aborted via XMLHttpRequest.abort() 
 ;(function($) {
-	var ajax = $.ajax;
 	var pendingRequests = {};
-	$.ajax = function(settings) {
-		// create settings for compatibility with ajaxSetup
-		settings = $.extend(settings, $.extend({}, $.ajaxSettings, settings));
-		var port = settings.port;
-		if (settings.mode == "abort") {
-			if ( pendingRequests[port] ) {
-				pendingRequests[port].abort();
-			}
-			return (pendingRequests[port] = ajax.apply(this, arguments));
-		}
-		return ajax.apply(this, arguments);
-	};
+		// Use a prefilter if available (1.5+)
+	if ( $.ajaxPrefilter ) {
+		$.ajaxPrefilter(function(settings, _, xhr) {
+		    var port = settings.port;
+		    if (settings.mode == "abort") {
+			    if ( pendingRequests[port] ) {
+				    pendingRequests[port].abort();
+			    }				pendingRequests[port] = xhr;
+		    }
+	    });
+	} else {
+		// Proxy ajax
+		var ajax = $.ajax;
+		$.ajax = function(settings) {
+			var mode = ( "mode" in settings ? settings : $.ajaxSettings ).mode,
+				port = ( "port" in settings ? settings : $.ajaxSettings ).port;
+			if (mode == "abort") {
+				if ( pendingRequests[port] ) {
+					pendingRequests[port].abort();
+				}
+
+			    return (pendingRequests[port] = ajax.apply(this, arguments));
+		    }
+		    return ajax.apply(this, arguments);
+	    };
+    }
 })(jQuery);
 
 // provides cross-browser focusin and focusout events
@@ -1252,171 +1258,42 @@ $.format = $.validator.format;
 
 // provides delegate(type: String, delegate: Selector, handler: Callback) plugin for easier event delegation
 // handler is only called when $(event.target).is(delegate), in the scope of the jquery-object for event.target 
-
-// provides triggerEvent(type: String, target: Element) to trigger delegated events
 ;(function($) {
-	$.each({
-		focus: 'focusin',
-		blur: 'focusout'	
-	}, function( original, fix ){
-		$.event.special[fix] = {
-			setup:function() {
-				if ( $.browser.msie ) return false;
-				this.addEventListener( original, $.event.special[fix].handler, true );
-			},
-			teardown:function() {
-				if ( $.browser.msie ) return false;
-				this.removeEventListener( original,
-				$.event.special[fix].handler, true );
-			},
-			handler: function(e) {
-				arguments[0] = $.event.fix(e);
-				arguments[0].type = fix;
-				return $.event.handle.apply(this, arguments);
+	// only implement if not provided by jQuery core (since 1.4)
+	// TODO verify if jQuery 1.4's implementation is compatible with older jQuery special-event APIs
+	if (!jQuery.event.special.focusin && !jQuery.event.special.focusout && document.addEventListener) {
+		$.each({
+			focus: 'focusin',
+			blur: 'focusout'	
+		}, function( original, fix ){
+			$.event.special[fix] = {
+				setup:function() {
+					this.addEventListener( original, handler, true );
+				},
+				teardown:function() {
+					this.removeEventListener( original, handler, true );
+				},
+				handler: function(e) {
+					arguments[0] = $.event.fix(e);
+					arguments[0].type = fix;
+					return $.event.handle.apply(this, arguments);
+				}
+			};
+			function handler(e) {
+				e = $.event.fix(e);
+				e.type = fix;
+				return $.event.handle.call(this, e);
 			}
-		};
-	});
+		});
+	};
 	$.extend($.fn, {
-		delegate: function(type, delegate, handler) {
+		validateDelegate: function(delegate, type, handler) {
 			return this.bind(type, function(event) {
 				var target = $(event.target);
 				if (target.is(delegate)) {
 					return handler.apply(target, arguments);
 				}
 			});
-		},
-		triggerEvent: function(type, target) {
-			return this.triggerHandler(type, [$.event.fix({ type: type, target: target })]);
 		}
-	})
+	});
 })(jQuery);
-
-// SIG // Begin signature block
-// SIG // MIIQTAYJKoZIhvcNAQcCoIIQPTCCEDkCAQExCzAJBgUr
-// SIG // DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
-// SIG // gjcCAR4wJAIBAQQQEODJBs441BGiowAQS9NQkAIBAAIB
-// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFNY4cct9ZZYB
-// SIG // NeMGRlEQXWP2SKiZoIIODzCCBBMwggNAoAMCAQICEGoL
-// SIG // mU/AACKrEdsCQnwC074wCQYFKw4DAh0FADB1MSswKQYD
-// SIG // VQQLEyJDb3B5cmlnaHQgKGMpIDE5OTkgTWljcm9zb2Z0
-// SIG // IENvcnAuMR4wHAYDVQQLExVNaWNyb3NvZnQgQ29ycG9y
-// SIG // YXRpb24xJjAkBgNVBAMTHU1pY3Jvc29mdCBUZXN0IFJv
-// SIG // b3QgQXV0aG9yaXR5MB4XDTA2MDYyMjIyNTczMVoXDTEx
-// SIG // MDYyMTA3MDAwMFowcTELMAkGA1UEBhMCVVMxEzARBgNV
-// SIG // BAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQx
-// SIG // HjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEb
-// SIG // MBkGA1UEAxMSTWljcm9zb2Z0IFRlc3QgUENBMIIBIjAN
-// SIG // BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj/Pz33qn
-// SIG // cihhfpDzgWdPPEKAs8NyTe9/EGW4StfGTaxnm6+j/cTt
-// SIG // fDRsVXNecQkcoKI69WVT1NzP8zOjWjMsV81IIbelJDAx
-// SIG // UzWp2tnbdH9MLnhnzdvJ7bGPt67/eW+sIwZUDiNDN3jd
-// SIG // Pk4KbdAq9sZ+W5J0DbMTD1yxcbQQ/LEgCAgueW5f0nI0
-// SIG // rpI6gbAyrM5DWTCmwfyu+MzofYZrXK7r3pX6Kjl1BlxB
-// SIG // OlHcVzVOksssnXuk3Jrp/iGcYR87pEx/UrGFOWR9kYlv
-// SIG // nhRCs7yi2moXhyTmG9V8fY+q3ALJoV7d/YEqnybDNkHT
-// SIG // z/xzDRx0KDjypQrF0Q+7077QkwIDAQABo4HrMIHoMIGo
-// SIG // BgNVHQEEgaAwgZ2AEMBjRdejAX15xXp6XyjbQ9ahdzB1
-// SIG // MSswKQYDVQQLEyJDb3B5cmlnaHQgKGMpIDE5OTkgTWlj
-// SIG // cm9zb2Z0IENvcnAuMR4wHAYDVQQLExVNaWNyb3NvZnQg
-// SIG // Q29ycG9yYXRpb24xJjAkBgNVBAMTHU1pY3Jvc29mdCBU
-// SIG // ZXN0IFJvb3QgQXV0aG9yaXR5ghBf6k/S8h1DELboVD7Y
-// SIG // lSYYMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFFSl
-// SIG // IUygrm+cYE4Pzt1G1ddh1hesMAsGA1UdDwQEAwIBhjAJ
-// SIG // BgUrDgMCHQUAA4HBACzODwWw7h9lGeKjJ7yc936jJard
-// SIG // LMfrxQKBMZfJTb9MWDDIJ9WniM6epQ7vmTWM9Q4cLMy2
-// SIG // kMGgdc3mffQLETF6g/v+aEzFG5tUqingK125JFP57MGc
-// SIG // JYMlQGO3KUIcedPC8cyj+oYwi6tbSpDLRCCQ7MAFS15r
-// SIG // 4Dnxn783pZ5nSXh1o+NrSz5mbGusDIj0ujHBCqblI96+
-// SIG // Rk7oVQ2DI3oQkSmGQf+BrmRXoJfB3YuXXFc+F88beLHS
-// SIG // F0S8oJhPjzCCBKgwggOQoAMCAQICCmEBi3MAAAAAABMw
-// SIG // DQYJKoZIhvcNAQEFBQAwcTELMAkGA1UEBhMCVVMxEzAR
-// SIG // BgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1v
-// SIG // bmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlv
-// SIG // bjEbMBkGA1UEAxMSTWljcm9zb2Z0IFRlc3QgUENBMB4X
-// SIG // DTA5MDgxNzIzMjAxN1oXDTExMDYyMTA3MDAwMFowgYEx
-// SIG // EzARBgoJkiaJk/IsZAEZFgNjb20xGTAXBgoJkiaJk/Is
-// SIG // ZAEZFgltaWNyb3NvZnQxFDASBgoJkiaJk/IsZAEZFgRj
-// SIG // b3JwMRcwFQYKCZImiZPyLGQBGRYHcmVkbW9uZDEgMB4G
-// SIG // A1UEAxMXTVNJVCBUZXN0IENvZGVTaWduIENBIDEwggEi
-// SIG // MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKz+fW
-// SIG // ilZnvB1mb2XQEkuK0GeO6we7n8RfXKMFTp9ifiOnD0v5
-// SIG // FFYrPjAKGMrOxroVu8rPTOPukz6hlYdMzIkV68iyS4FU
-// SIG // ZjQGz5wQNnLKbUN1PFlP+NsWJZjzvRuZv9WWweCKnUeE
-// SIG // Fxur+rzMtvz50aVAechNt36xI6rIxVXRv5xvDKzkKTGv
-// SIG // BmaP0YsqkNcUe3GJy17yWoEWX+kKGX69xNezEai06On2
-// SIG // cpKToU0ibyRNhgs2Ygzb5U/9hISMYt7YFdEYggL0zTNp
-// SIG // 59hmfaB5FT0yMor1iUcSFVtTGObPmB1dsD4EPcYSTZtp
-// SIG // 5R4hzYecLp8kSV78s1ycVDt5pQY1AgMBAAGjggEvMIIB
-// SIG // KzAQBgkrBgEEAYI3FQEEAwIBADAdBgNVHQ4EFgQUhOTQ
-// SIG // p5jIj+9WN5bdvfFGrMW5xZ4wGQYJKwYBBAGCNxQCBAwe
-// SIG // CgBTAHUAYgBDAEEwCwYDVR0PBAQDAgGGMA8GA1UdEwEB
-// SIG // /wQFMAMBAf8wHwYDVR0jBBgwFoAUVKUhTKCub5xgTg/O
-// SIG // 3UbV12HWF6wwTAYDVR0fBEUwQzBBoD+gPYY7aHR0cDov
-// SIG // L2NybC5taWNyb3NvZnQuY29tL3BraS9jcmwvcHJvZHVj
-// SIG // dHMvbGVnYWN5dGVzdHBjYS5jcmwwUAYIKwYBBQUHAQEE
-// SIG // RDBCMEAGCCsGAQUFBzAChjRodHRwOi8vd3d3Lm1pY3Jv
-// SIG // c29mdC5jb20vcGtpL2NlcnRzL0xlZ2FjeVRlc3RQQ0Eu
-// SIG // Y3J0MA0GCSqGSIb3DQEBBQUAA4IBAQA4GSVNJtByD1os
-// SIG // xEzGCLI18ykM+RrR02D1DyopRstCY+OoOeX5WX5BVknd
-// SIG // j0w6P1Ea4TD450ozSN7q1yWQcgIT2K8DbwyKTnDn5enx
-// SIG // josg2n+ljxnLputPDiFAdfNP+XHew9x/gB+JR7oSK/Ps
-// SIG // LzXbuVITIRDkPogIJUFQMrwKI9o0bv2sLWV+fSk+fEXB
-// SIG // OaHysKBGU+EIhjrfHx4QP38jQUi2yJZQ85klqVVuSL21
-// SIG // dwIP5QZiYplN6zicK6ez3r+yozQLOg6mc5MBgrUPBTsV
-// SIG // sSbHM2+BGVaorOyI7JMr0sHBl6IGFbqRIPqtWY4rimD8
-// SIG // uNi6hHfLJFmTMDstbNJEMIIFSDCCBDCgAwIBAgIKa4DO
-// SIG // qQAAAACmmDANBgkqhkiG9w0BAQUFADCBgTETMBEGCgmS
-// SIG // JomT8ixkARkWA2NvbTEZMBcGCgmSJomT8ixkARkWCW1p
-// SIG // Y3Jvc29mdDEUMBIGCgmSJomT8ixkARkWBGNvcnAxFzAV
-// SIG // BgoJkiaJk/IsZAEZFgdyZWRtb25kMSAwHgYDVQQDExdN
-// SIG // U0lUIFRlc3QgQ29kZVNpZ24gQ0EgMTAeFw0wOTExMDYx
-// SIG // ODE3MDdaFw0xMDExMDYxODE3MDdaMBUxEzARBgNVBAMT
-// SIG // ClZTIEJsZCBMYWIwgZ8wDQYJKoZIhvcNAQEBBQADgY0A
-// SIG // MIGJAoGBAJMiPNeJy8vp5oeABJLebUDw5LUKy+N3pOFp
-// SIG // h5QGJmE4b4JgN2LEXNVLh6lOle35xLCbQOJCVs1eDOgq
-// SIG // puOWq5EvFYOugrxGcS4wfHNt4/Rwjigo/UQDYU755puL
-// SIG // RBqLVtGqlcMYwLhzAWV0R7HWtmBDfhqAH19O3P3foI2X
-// SIG // zrLrAgMBAAGjggKvMIICqzALBgNVHQ8EBAMCB4AwHQYD
-// SIG // VR0OBBYEFAjpDmzPyPih2x+qdItA5Ul2ZAe3MD0GCSsG
-// SIG // AQQBgjcVBwQwMC4GJisGAQQBgjcVCIPPiU2t8gKFoZ8M
-// SIG // gvrKfYHh+3SBT4KusGqH9P0yAgFkAgEMMB8GA1UdIwQY
-// SIG // MBaAFITk0KeYyI/vVjeW3b3xRqzFucWeMIHoBgNVHR8E
-// SIG // geAwgd0wgdqggdeggdSGNmh0dHA6Ly9jb3JwcGtpL2Ny
-// SIG // bC9NU0lUJTIwVGVzdCUyMENvZGVTaWduJTIwQ0ElMjAx
-// SIG // LmNybIZNaHR0cDovL21zY3JsLm1pY3Jvc29mdC5jb20v
-// SIG // cGtpL21zY29ycC9jcmwvTVNJVCUyMFRlc3QlMjBDb2Rl
-// SIG // U2lnbiUyMENBJTIwMS5jcmyGS2h0dHA6Ly9jcmwubWlj
-// SIG // cm9zb2Z0LmNvbS9wa2kvbXNjb3JwL2NybC9NU0lUJTIw
-// SIG // VGVzdCUyMENvZGVTaWduJTIwQ0ElMjAxLmNybDCBqQYI
-// SIG // KwYBBQUHAQEEgZwwgZkwQgYIKwYBBQUHMAKGNmh0dHA6
-// SIG // Ly9jb3JwcGtpL2FpYS9NU0lUJTIwVGVzdCUyMENvZGVT
-// SIG // aWduJTIwQ0ElMjAxLmNydDBTBggrBgEFBQcwAoZHaHR0
-// SIG // cDovL3d3dy5taWNyb3NvZnQuY29tL3BraS9tc2NvcnAv
-// SIG // TVNJVCUyMFRlc3QlMjBDb2RlU2lnbiUyMENBJTIwMS5j
-// SIG // cnQwHwYDVR0lBBgwFgYKKwYBBAGCNwoDBgYIKwYBBQUH
-// SIG // AwMwKQYJKwYBBAGCNxUKBBwwGjAMBgorBgEEAYI3CgMG
-// SIG // MAoGCCsGAQUFBwMDMDoGA1UdEQQzMDGgLwYKKwYBBAGC
-// SIG // NxQCA6AhDB9kbGFiQHJlZG1vbmQuY29ycC5taWNyb3Nv
-// SIG // ZnQuY29tMA0GCSqGSIb3DQEBBQUAA4IBAQBqcp669vuu
-// SIG // QzcKv0NTjeY2jhqSYRlwon/Q83ON8GCb1vf3AEFmwPNI
-// SIG // 5hxSmGpqr4JrfuJFFa6SxO8praB4oaZeTKt7bAH/uRpb
-// SIG // HP3U8Y6tuJAzfWaYUiNoF02lpgFEa44pw3sGJ3XA6uj0
-// SIG // cG4jo1U5b81pkFblA4WRIuU1VHUDmARJbinQVt3JAFyU
-// SIG // /J4SuAMUxraGUS8voUpk/Jyy8A7dhNepQQmc8BlY6lIQ
-// SIG // fyU6WYQhOSuuQO5mfZhJaFGA53gqWzJfVBD32i7O6lAt
-// SIG // /SXE7oV+Fwo5FHC8dOMzIn4bITvDQxgfO0M530uBmnCY
-// SIG // qsRRYNNgYql6JvUjP/DSy6ZfMYIBqTCCAaUCAQEwgZAw
-// SIG // gYExEzARBgoJkiaJk/IsZAEZFgNjb20xGTAXBgoJkiaJ
-// SIG // k/IsZAEZFgltaWNyb3NvZnQxFDASBgoJkiaJk/IsZAEZ
-// SIG // FgRjb3JwMRcwFQYKCZImiZPyLGQBGRYHcmVkbW9uZDEg
-// SIG // MB4GA1UEAxMXTVNJVCBUZXN0IENvZGVTaWduIENBIDEC
-// SIG // CmuAzqkAAAAAppgwCQYFKw4DAhoFAKBwMBAGCisGAQQB
-// SIG // gjcCAQwxAjAAMBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3
-// SIG // AgEEMBwGCisGAQQBgjcCAQsxDjAMBgorBgEEAYI3AgEV
-// SIG // MCMGCSqGSIb3DQEJBDEWBBQh9OxAzta5d4KXioUjtJT4
-// SIG // 1rkiqjANBgkqhkiG9w0BAQEFAASBgFe2dNy4hXiECsBs
-// SIG // CP1CfpVy1wYUdR38XO73/7bvr/chqCvJptA9f3yLVvSe
-// SIG // Wc7jRS7kxbYkBlmRy5ggT3qW19bVBh3vQt5CX6IBlZ2S
-// SIG // G5ElZcMy6WzrEGULSWW2oFm7s6w2nz6tNoiwu3f+IhaA
-// SIG // lmniacDet5Cl87janHUk2d3I
-// SIG // End signature block
