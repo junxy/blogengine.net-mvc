@@ -13,7 +13,7 @@ namespace BlogEngine.Admin.Controllers
 
         public ActionResult Index()
         {
-            return RedirectToAction("Posts");
+            return View();
         }
 
         public ActionResult Posts()

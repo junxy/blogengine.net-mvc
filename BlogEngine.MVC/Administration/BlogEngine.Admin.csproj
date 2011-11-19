@@ -64,21 +64,263 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminAreaRegistration.cs" />
+    <Compile Include="App_GlobalResources\labels.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.ar.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.bg.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.bg.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.cs.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.cs.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.da.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.da.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.de.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.el-GR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.el-GR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.es.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.es.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.et.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.et.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.fa.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.fa.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.fi.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.fi.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.he.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.he.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.hu.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.hu.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.is.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.is.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.it.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.it.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.ja.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.ja.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.ko.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.ko.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.mk.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.mk.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.nl-be.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.nl-be.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.nl.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.nl.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.no.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.no.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.pl.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.pl.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.pt-BR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.pt-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.ru.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.ru.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.sk.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.sk.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.sl.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.sl.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.sq.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.sq.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.sv.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.sv.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.th.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.th.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.tr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.tr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.uk.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.uk.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.vi-VN.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.vi-VN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.zh-CN.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.zh-CN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.zh-TW.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.zh-TW.resx</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PostsController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_GlobalResources\Notes On Labels.resx.txt" />
     <Content Include="Content\colorbox.css" />
+    <Content Include="Content\images\action-add.png" />
+    <Content Include="Content\images\action-delete-small.png" />
+    <Content Include="Content\images\action-delete.png" />
+    <Content Include="Content\images\action-down.png" />
+    <Content Include="Content\images\action-dropdown.png" />
+    <Content Include="Content\images\action-edit-small.png" />
+    <Content Include="Content\images\action-enable-small.png" />
+    <Content Include="Content\images\action-enable.png" />
+    <Content Include="Content\images\action-profile-small.png" />
+    <Content Include="Content\images\action-remove-small.png" />
+    <Content Include="Content\images\action-remove.png" />
+    <Content Include="Content\images\action-rights-small.png" />
+    <Content Include="Content\images\action-settings.png" />
+    <Content Include="Content\images\action-tools-small.png" />
+    <Content Include="Content\images\action-up.png" />
+    <Content Include="Content\images\action-view-small.png" />
+    <Content Include="Content\images\bkg-dark.jpg" />
+    <Content Include="Content\images\bkg-dark2.jpg" />
+    <Content Include="Content\images\bkg-light.jpg" />
+    <Content Include="Content\images\bkg.png" />
+    <Content Include="Content\images\colorbox\border.png" />
+    <Content Include="Content\images\colorbox\controls.png" />
+    <Content Include="Content\images\colorbox\internet_explorer\borderBottomCenter.png" />
+    <Content Include="Content\images\colorbox\internet_explorer\borderBottomLeft.png" />
+    <Content Include="Content\images\colorbox\internet_explorer\borderBottomRight.png" />
+    <Content Include="Content\images\colorbox\internet_explorer\borderMiddleLeft.png" />
+    <Content Include="Content\images\colorbox\internet_explorer\borderMiddleRight.png" />
+    <Content Include="Content\images\colorbox\internet_explorer\borderTopCenter.png" />
+    <Content Include="Content\images\colorbox\internet_explorer\borderTopLeft.png" />
+    <Content Include="Content\images\colorbox\internet_explorer\borderTopRight.png" />
+    <Content Include="Content\images\colorbox\loading.gif" />
+    <Content Include="Content\images\colorbox\loading_background.png" />
+    <Content Include="Content\images\colorbox\overlay.png" />
+    <Content Include="Content\images\gray-btn-bkg.png" />
+    <Content Include="Content\images\icon-comments.png" />
+    <Content Include="Content\images\icon-file.png" />
+    <Content Include="Content\images\icon-image.png" />
+    <Content Include="Content\images\icon-info.png" />
+    <Content Include="Content\images\icon-video.png" />
+    <Content Include="Content\images\link-first.png" />
+    <Content Include="Content\images\link-last.png" />
+    <Content Include="Content\images\link-next.png" />
+    <Content Include="Content\images\link-prev.png" />
+    <Content Include="Content\images\no_avatar.png" />
+    <Content Include="Content\images\orange-btn-bkg.png" />
+    <Content Include="Content\images\recyclebin.png" />
+    <Content Include="Content\images\right-menu-bkg.jpg" />
+    <Content Include="Content\images\status-denied.png" />
+    <Content Include="Content\images\status-draft.png" />
+    <Content Include="Content\images\status-error.png" />
+    <Content Include="Content\images\status-help.png" />
+    <Content Include="Content\images\status-info.png" />
+    <Content Include="Content\images\status-success.png" />
+    <Content Include="Content\images\status-warning.png" />
+    <Content Include="Content\images\tab-bkg.png" />
+    <Content Include="Content\images\tipsy.gif" />
     <Content Include="Content\style.css" />
     <Content Include="Content\tipsy.css" />
+    <Content Include="Scripts\admin.js" />
+    <Content Include="Scripts\jquery.colorbox.js" />
+    <Content Include="Scripts\jquery.masonry.min.js" />
+    <Content Include="Scripts\jquery.tipsy.js" />
+    <Content Include="Scripts\widget.js" />
     <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Posts\Index.aspx" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\DotNetSlave.BusinessLogic\BlogEngine.Core.csproj">
@@ -88,6 +330,158 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\Admin.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\labels.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.af.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.ar.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.bg.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.bg.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.cs.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.cs.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.da.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.da.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.de.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.de.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.el-GR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.el-GR.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.es.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.es.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.et.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.et.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.fa.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.fa.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.fi.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.fi.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.he.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.he.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.hu.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.hu.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.is.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.is.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.it.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.it.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.ja.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.ja.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.ko.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.ko.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.mk.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.mk.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.nl-be.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.nl-be.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.nl.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.nl.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.no.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.no.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.pl.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.pl.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.pt-BR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.pt-BR.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.ru.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.ru.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.sk.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.sk.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.sl.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.sl.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.sq.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.sq.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.sv.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.sv.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.th.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.th.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.tr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.tr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.uk.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.uk.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.vi-VN.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.vi-VN.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.zh-CN.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.zh-CN.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.zh-TW.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.zh-TW.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web1.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

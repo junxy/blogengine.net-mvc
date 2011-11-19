@@ -57,6 +57,186 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_GlobalResources\labels.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.ar.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.bg.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.bg.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.cs.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.cs.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.da.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.da.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.de.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.el-GR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.el-GR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.es.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.es.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.et.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.et.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.fa.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.fa.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.fi.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.fi.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.he.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.he.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.hu.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.hu.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.is.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.is.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.it.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.it.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.ja.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.ja.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.ko.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.ko.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.mk.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.mk.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.nl-be.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.nl-be.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.nl.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.nl.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.no.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.no.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.pl.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.pl.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.pt-BR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.pt-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.ru.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.ru.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.sk.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.sk.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.sl.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.sl.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.sq.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.sq.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.sv.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.sv.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.th.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.th.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.tr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.tr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.uk.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.uk.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.vi-VN.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.vi-VN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.zh-CN.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.zh-CN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.zh-TW.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.zh-TW.resx</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Framework\CompressAttribute.cs" />
@@ -74,7 +254,329 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\BlogEngine.sdf" />
+    <Content Include="App_GlobalResources\Notes On Labels.resx.txt" />
+    <Content Include="Content\pics\ajax-loader.gif" />
+    <Content Include="Content\pics\apml.png" />
+    <Content Include="Content\pics\be-logo.jpg" />
+    <Content Include="Content\pics\benTag24.png" />
+    <Content Include="Content\pics\bg-md.jpg" />
+    <Content Include="Content\pics\bg-slice.jpg" />
+    <Content Include="Content\pics\blogengine.ico" />
+    <Content Include="Content\pics\bx-slice.jpg" />
+    <Content Include="Content\pics\down_arrow_small.gif" />
+    <Content Include="Content\pics\flags\ad.png" />
+    <Content Include="Content\pics\flags\ae.png" />
+    <Content Include="Content\pics\flags\af.png" />
+    <Content Include="Content\pics\flags\ag.png" />
+    <Content Include="Content\pics\flags\ai.png" />
+    <Content Include="Content\pics\flags\al.png" />
+    <Content Include="Content\pics\flags\am.png" />
+    <Content Include="Content\pics\flags\an.png" />
+    <Content Include="Content\pics\flags\ao.png" />
+    <Content Include="Content\pics\flags\ar.png" />
+    <Content Include="Content\pics\flags\as.png" />
+    <Content Include="Content\pics\flags\at.png" />
+    <Content Include="Content\pics\flags\au.png" />
+    <Content Include="Content\pics\flags\aw.png" />
+    <Content Include="Content\pics\flags\ax.png" />
+    <Content Include="Content\pics\flags\az.png" />
+    <Content Include="Content\pics\flags\ba.png" />
+    <Content Include="Content\pics\flags\bb.png" />
+    <Content Include="Content\pics\flags\bd.png" />
+    <Content Include="Content\pics\flags\be.png" />
+    <Content Include="Content\pics\flags\bf.png" />
+    <Content Include="Content\pics\flags\bg.png" />
+    <Content Include="Content\pics\flags\bh.png" />
+    <Content Include="Content\pics\flags\bi.png" />
+    <Content Include="Content\pics\flags\bj.png" />
+    <Content Include="Content\pics\flags\bm.png" />
+    <Content Include="Content\pics\flags\bn.png" />
+    <Content Include="Content\pics\flags\bo.png" />
+    <Content Include="Content\pics\flags\br.png" />
+    <Content Include="Content\pics\flags\bs.png" />
+    <Content Include="Content\pics\flags\bt.png" />
+    <Content Include="Content\pics\flags\bv.png" />
+    <Content Include="Content\pics\flags\bw.png" />
+    <Content Include="Content\pics\flags\by.png" />
+    <Content Include="Content\pics\flags\bz.png" />
+    <Content Include="Content\pics\flags\ca.png" />
+    <Content Include="Content\pics\flags\cc.png" />
+    <Content Include="Content\pics\flags\cd.png" />
+    <Content Include="Content\pics\flags\cf.png" />
+    <Content Include="Content\pics\flags\cg.png" />
+    <Content Include="Content\pics\flags\ch.png" />
+    <Content Include="Content\pics\flags\ci.png" />
+    <Content Include="Content\pics\flags\ck.png" />
+    <Content Include="Content\pics\flags\cl.png" />
+    <Content Include="Content\pics\flags\cm.png" />
+    <Content Include="Content\pics\flags\cn.png" />
+    <Content Include="Content\pics\flags\co.png" />
+    <Content Include="Content\pics\flags\cr.png" />
+    <Content Include="Content\pics\flags\cs.png" />
+    <Content Include="Content\pics\flags\cu.png" />
+    <Content Include="Content\pics\flags\cv.png" />
+    <Content Include="Content\pics\flags\cx.png" />
+    <Content Include="Content\pics\flags\cy.png" />
+    <Content Include="Content\pics\flags\cz.png" />
+    <Content Include="Content\pics\flags\de.png" />
+    <Content Include="Content\pics\flags\dj.png" />
+    <Content Include="Content\pics\flags\dk.png" />
+    <Content Include="Content\pics\flags\dm.png" />
+    <Content Include="Content\pics\flags\do.png" />
+    <Content Include="Content\pics\flags\dz.png" />
+    <Content Include="Content\pics\flags\ec.png" />
+    <Content Include="Content\pics\flags\ee.png" />
+    <Content Include="Content\pics\flags\eg.png" />
+    <Content Include="Content\pics\flags\eh.png" />
+    <Content Include="Content\pics\flags\er.png" />
+    <Content Include="Content\pics\flags\es.png" />
+    <Content Include="Content\pics\flags\et.png" />
+    <Content Include="Content\pics\flags\fam.png" />
+    <Content Include="Content\pics\flags\fi.png" />
+    <Content Include="Content\pics\flags\fj.png" />
+    <Content Include="Content\pics\flags\fk.png" />
+    <Content Include="Content\pics\flags\fm.png" />
+    <Content Include="Content\pics\flags\fo.png" />
+    <Content Include="Content\pics\flags\fr.png" />
+    <Content Include="Content\pics\flags\ga.png" />
+    <Content Include="Content\pics\flags\gb.png" />
+    <Content Include="Content\pics\flags\gd.png" />
+    <Content Include="Content\pics\flags\ge.png" />
+    <Content Include="Content\pics\flags\gf.png" />
+    <Content Include="Content\pics\flags\gh.png" />
+    <Content Include="Content\pics\flags\gi.png" />
+    <Content Include="Content\pics\flags\gl.png" />
+    <Content Include="Content\pics\flags\gm.png" />
+    <Content Include="Content\pics\flags\gn.png" />
+    <Content Include="Content\pics\flags\gp.png" />
+    <Content Include="Content\pics\flags\gq.png" />
+    <Content Include="Content\pics\flags\gr.png" />
+    <Content Include="Content\pics\flags\gs.png" />
+    <Content Include="Content\pics\flags\gt.png" />
+    <Content Include="Content\pics\flags\gu.png" />
+    <Content Include="Content\pics\flags\gw.png" />
+    <Content Include="Content\pics\flags\gy.png" />
+    <Content Include="Content\pics\flags\hk.png" />
+    <Content Include="Content\pics\flags\hm.png" />
+    <Content Include="Content\pics\flags\hn.png" />
+    <Content Include="Content\pics\flags\hr.png" />
+    <Content Include="Content\pics\flags\ht.png" />
+    <Content Include="Content\pics\flags\hu.png" />
+    <Content Include="Content\pics\flags\id.png" />
+    <Content Include="Content\pics\flags\ie.png" />
+    <Content Include="Content\pics\flags\il.png" />
+    <Content Include="Content\pics\flags\in.png" />
+    <Content Include="Content\pics\flags\io.png" />
+    <Content Include="Content\pics\flags\iq.png" />
+    <Content Include="Content\pics\flags\ir.png" />
+    <Content Include="Content\pics\flags\is.png" />
+    <Content Include="Content\pics\flags\it.png" />
+    <Content Include="Content\pics\flags\jm.png" />
+    <Content Include="Content\pics\flags\jo.png" />
+    <Content Include="Content\pics\flags\jp.png" />
+    <Content Include="Content\pics\flags\ke.png" />
+    <Content Include="Content\pics\flags\kg.png" />
+    <Content Include="Content\pics\flags\kh.png" />
+    <Content Include="Content\pics\flags\ki.png" />
+    <Content Include="Content\pics\flags\km.png" />
+    <Content Include="Content\pics\flags\kn.png" />
+    <Content Include="Content\pics\flags\kp.png" />
+    <Content Include="Content\pics\flags\kr.png" />
+    <Content Include="Content\pics\flags\kw.png" />
+    <Content Include="Content\pics\flags\ky.png" />
+    <Content Include="Content\pics\flags\kz.png" />
+    <Content Include="Content\pics\flags\la.png" />
+    <Content Include="Content\pics\flags\lb.png" />
+    <Content Include="Content\pics\flags\lc.png" />
+    <Content Include="Content\pics\flags\li.png" />
+    <Content Include="Content\pics\flags\lk.png" />
+    <Content Include="Content\pics\flags\lr.png" />
+    <Content Include="Content\pics\flags\ls.png" />
+    <Content Include="Content\pics\flags\lt.png" />
+    <Content Include="Content\pics\flags\lu.png" />
+    <Content Include="Content\pics\flags\lv.png" />
+    <Content Include="Content\pics\flags\ly.png" />
+    <Content Include="Content\pics\flags\ma.png" />
+    <Content Include="Content\pics\flags\mc.png" />
+    <Content Include="Content\pics\flags\md.png" />
+    <Content Include="Content\pics\flags\me.png" />
+    <Content Include="Content\pics\flags\mg.png" />
+    <Content Include="Content\pics\flags\mh.png" />
+    <Content Include="Content\pics\flags\mk.png" />
+    <Content Include="Content\pics\flags\ml.png" />
+    <Content Include="Content\pics\flags\mm.png" />
+    <Content Include="Content\pics\flags\mn.png" />
+    <Content Include="Content\pics\flags\mo.png" />
+    <Content Include="Content\pics\flags\mp.png" />
+    <Content Include="Content\pics\flags\mq.png" />
+    <Content Include="Content\pics\flags\mr.png" />
+    <Content Include="Content\pics\flags\ms.png" />
+    <Content Include="Content\pics\flags\mt.png" />
+    <Content Include="Content\pics\flags\mu.png" />
+    <Content Include="Content\pics\flags\mv.png" />
+    <Content Include="Content\pics\flags\mw.png" />
+    <Content Include="Content\pics\flags\mx.png" />
+    <Content Include="Content\pics\flags\my.png" />
+    <Content Include="Content\pics\flags\mz.png" />
+    <Content Include="Content\pics\flags\na.png" />
+    <Content Include="Content\pics\flags\nc.png" />
+    <Content Include="Content\pics\flags\ne.png" />
+    <Content Include="Content\pics\flags\nf.png" />
+    <Content Include="Content\pics\flags\ng.png" />
+    <Content Include="Content\pics\flags\ni.png" />
+    <Content Include="Content\pics\flags\nl.png" />
+    <Content Include="Content\pics\flags\no.png" />
+    <Content Include="Content\pics\flags\np.png" />
+    <Content Include="Content\pics\flags\nr.png" />
+    <Content Include="Content\pics\flags\nu.png" />
+    <Content Include="Content\pics\flags\nz.png" />
+    <Content Include="Content\pics\flags\om.png" />
+    <Content Include="Content\pics\flags\pa.png" />
+    <Content Include="Content\pics\flags\pe.png" />
+    <Content Include="Content\pics\flags\pf.png" />
+    <Content Include="Content\pics\flags\pg.png" />
+    <Content Include="Content\pics\flags\ph.png" />
+    <Content Include="Content\pics\flags\pk.png" />
+    <Content Include="Content\pics\flags\pl.png" />
+    <Content Include="Content\pics\flags\pm.png" />
+    <Content Include="Content\pics\flags\pn.png" />
+    <Content Include="Content\pics\flags\pr.png" />
+    <Content Include="Content\pics\flags\ps.png" />
+    <Content Include="Content\pics\flags\pt.png" />
+    <Content Include="Content\pics\flags\pw.png" />
+    <Content Include="Content\pics\flags\py.png" />
+    <Content Include="Content\pics\flags\qa.png" />
+    <Content Include="Content\pics\flags\re.png" />
+    <Content Include="Content\pics\flags\ro.png" />
+    <Content Include="Content\pics\flags\rs.png" />
+    <Content Include="Content\pics\flags\ru.png" />
+    <Content Include="Content\pics\flags\rw.png" />
+    <Content Include="Content\pics\flags\sa.png" />
+    <Content Include="Content\pics\flags\sb.png" />
+    <Content Include="Content\pics\flags\sc.png" />
+    <Content Include="Content\pics\flags\sd.png" />
+    <Content Include="Content\pics\flags\se.png" />
+    <Content Include="Content\pics\flags\sg.png" />
+    <Content Include="Content\pics\flags\sh.png" />
+    <Content Include="Content\pics\flags\si.png" />
+    <Content Include="Content\pics\flags\sj.png" />
+    <Content Include="Content\pics\flags\sk.png" />
+    <Content Include="Content\pics\flags\sl.png" />
+    <Content Include="Content\pics\flags\sm.png" />
+    <Content Include="Content\pics\flags\sn.png" />
+    <Content Include="Content\pics\flags\so.png" />
+    <Content Include="Content\pics\flags\sr.png" />
+    <Content Include="Content\pics\flags\st.png" />
+    <Content Include="Content\pics\flags\sv.png" />
+    <Content Include="Content\pics\flags\sy.png" />
+    <Content Include="Content\pics\flags\sz.png" />
+    <Content Include="Content\pics\flags\tc.png" />
+    <Content Include="Content\pics\flags\td.png" />
+    <Content Include="Content\pics\flags\tf.png" />
+    <Content Include="Content\pics\flags\tg.png" />
+    <Content Include="Content\pics\flags\th.png" />
+    <Content Include="Content\pics\flags\tj.png" />
+    <Content Include="Content\pics\flags\tk.png" />
+    <Content Include="Content\pics\flags\tl.png" />
+    <Content Include="Content\pics\flags\tm.png" />
+    <Content Include="Content\pics\flags\tn.png" />
+    <Content Include="Content\pics\flags\to.png" />
+    <Content Include="Content\pics\flags\tr.png" />
+    <Content Include="Content\pics\flags\tt.png" />
+    <Content Include="Content\pics\flags\tv.png" />
+    <Content Include="Content\pics\flags\tw.png" />
+    <Content Include="Content\pics\flags\tz.png" />
+    <Content Include="Content\pics\flags\ua.png" />
+    <Content Include="Content\pics\flags\ug.png" />
+    <Content Include="Content\pics\flags\um.png" />
+    <Content Include="Content\pics\flags\us.png" />
+    <Content Include="Content\pics\flags\uy.png" />
+    <Content Include="Content\pics\flags\uz.png" />
+    <Content Include="Content\pics\flags\va.png" />
+    <Content Include="Content\pics\flags\vc.png" />
+    <Content Include="Content\pics\flags\ve.png" />
+    <Content Include="Content\pics\flags\vg.png" />
+    <Content Include="Content\pics\flags\vi.png" />
+    <Content Include="Content\pics\flags\vn.png" />
+    <Content Include="Content\pics\flags\vu.png" />
+    <Content Include="Content\pics\flags\wf.png" />
+    <Content Include="Content\pics\flags\ws.png" />
+    <Content Include="Content\pics\flags\ye.png" />
+    <Content Include="Content\pics\flags\yt.png" />
+    <Content Include="Content\pics\flags\za.png" />
+    <Content Include="Content\pics\flags\zm.png" />
+    <Content Include="Content\pics\flags\zw.png" />
+    <Content Include="Content\pics\logo.png" />
+    <Content Include="Content\pics\mail.gif" />
+    <Content Include="Content\pics\marker_bottom.gif" />
+    <Content Include="Content\pics\marker_middle.gif" />
+    <Content Include="Content\pics\marker_top.gif" />
+    <Content Include="Content\pics\noavatar.jpg" />
+    <Content Include="Content\pics\opml.png" />
+    <Content Include="Content\pics\page_white_code.png" />
+    <Content Include="Content\pics\pixel.png" />
+    <Content Include="Content\pics\remote.gif" />
+    <Content Include="Content\pics\reply-arrow.gif" />
+    <Content Include="Content\pics\rssButton.gif" />
+    <Content Include="Content\pics\rssButton.png" />
+    <Content Include="Content\pics\star_small.gif" />
+    <Content Include="Content\pics\success.png" />
+    <Content Include="Content\pics\up_arrow_small.gif" />
+    <Content Include="Content\pics\warning.png" />
+    <Content Include="Content\pics\wrench84watermark.png" />
+    <Content Include="Content\pics\wrenchicon16.png" />
+    <Content Include="Content\pics\xfn\colleague.gif" />
+    <Content Include="Content\pics\xfn\colleagueMet.gif" />
+    <Content Include="Content\pics\xfn\contact.gif" />
+    <Content Include="Content\pics\xfn\contactMet.gif" />
+    <Content Include="Content\pics\xfn\me.gif" />
+    <Content Include="Content\pics\xfn\sweet.gif" />
+    <Content Include="Content\pics\xfn\sweetMet.gif" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\blog.js" />
+    <Content Include="Scripts\jquery-jtemplates.js" />
+    <Content Include="Scripts\jquery.cookie.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\json2.js" />
+    <Content Include="Scripts\mediaelement\background.png" />
+    <Content Include="Scripts\mediaelement\bigplay.png" />
+    <Content Include="Scripts\mediaelement\controls.png" />
+    <Content Include="Scripts\mediaelement\flashmediaelement.swf" />
+    <Content Include="Scripts\mediaelement\mediaelement.js" />
+    <Content Include="Scripts\mediaelement\mediaelement.min.js" />
+    <Content Include="Scripts\mediaelement\mediaelementplayer.css" />
+    <Content Include="Scripts\mediaelement\mediaelementplayer.js" />
+    <Content Include="Scripts\mediaelement\mediaelementplayer.min.css" />
+    <Content Include="Scripts\mediaelement\mediaelementplayer.min.js" />
+    <Content Include="Scripts\mediaelement\silverlightmediaelement.xap" />
+    <Content Include="Scripts\syntaxhighlighter\shAutoloader.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushAppleScript.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushAS3.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushBash.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushColdFusion.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushCpp.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushCSharp.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushCss.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushDelphi.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushDiff.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushErlang.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushGroovy.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushJava.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushJavaFX.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushJScript.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushPerl.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushPhp.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushPlain.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushPowerShell.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushPython.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushRuby.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushSass.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushScala.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushSql.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushVb.js" />
+    <Content Include="Scripts\syntaxhighlighter\shBrushXml.js" />
+    <Content Include="Scripts\syntaxhighlighter\shCore.js" />
+    <Content Include="Scripts\syntaxhighlighter\shLegacy.js" />
     <Content Include="Views\Home\Archive.aspx" />
     <Content Include="Views\Home\Contact.aspx" />
     <Content Include="Views\Home\Index.aspx" />
@@ -87,9 +589,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Content\Site.css" />
-    <Content Include="Scripts\jquery-1.4.1.js" />
-    <Content Include="Scripts\jquery-1.4.1.min.js" />
-    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate-vsdoc.js" />
@@ -153,6 +652,152 @@
       <Project>{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}</Project>
       <Name>BlogEngine.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\labels.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.af.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.ar.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.bg.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.bg.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.cs.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.cs.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.da.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.da.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.de.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.de.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.el-GR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.el-GR.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.es.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.es.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.et.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.et.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.fa.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.fa.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.fi.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.fi.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.he.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.he.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.hu.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.hu.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.is.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.is.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.it.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.it.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.ja.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.ja.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.ko.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.ko.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.mk.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.mk.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.nl-be.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.nl-be.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.nl.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.nl.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.no.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.no.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.pl.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.pl.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.pt-BR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.pt-BR.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.ru.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.ru.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.sk.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.sk.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.sl.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.sl.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.sq.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.sq.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.sv.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.sv.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.th.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.th.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.tr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.tr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.uk.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.uk.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.vi-VN.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.vi-VN.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.zh-CN.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.zh-CN.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.zh-TW.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.zh-TW.designer.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
